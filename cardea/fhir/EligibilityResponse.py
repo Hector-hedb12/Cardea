@@ -34,14 +34,14 @@ class EligibilityResponse(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'EligibilityResponse'
-        # type: string
+        # Type: string
         # possible values: EligibilityResponse
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.requestProvider = None
         # reference to Reference: identifier
@@ -56,27 +56,27 @@ class EligibilityResponse(fhirbase):
         # reference to CodeableConcept
 
         self.disposition = None
-        # type: string
+        # Type: string
 
         self.insurer = None
         # reference to Reference: identifier
 
         self.inforce = None
-        # type: boolean
+        # Type: boolean
 
         self.insurance = None
-        # type: array
+        # Type: array
         # reference to EligibilityResponse_Insurance
 
         self.form = None
         # reference to CodeableConcept
 
         self.error = None
-        # type: array
+        # Type: array
         # reference to EligibilityResponse_Error
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -155,7 +155,7 @@ class EligibilityResponse_Insurance(fhirbase):
         # reference to Reference: identifier
 
         self.benefitBalance = None
-        # type: array
+        # Type: array
         # reference to EligibilityResponse_BenefitBalance
 
         self.object_id = None
@@ -218,13 +218,13 @@ class EligibilityResponse_BenefitBalance(fhirbase):
         # reference to CodeableConcept
 
         self.excluded = None
-        # type: boolean
+        # Type: boolean
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.network = None
         # reference to CodeableConcept
@@ -236,7 +236,7 @@ class EligibilityResponse_BenefitBalance(fhirbase):
         # reference to CodeableConcept
 
         self.financial = None
-        # type: array
+        # Type: array
         # reference to EligibilityResponse_Financial
 
         self.object_id = None
@@ -301,16 +301,16 @@ class EligibilityResponse_Financial(fhirbase):
         # reference to CodeableConcept
 
         self.allowedUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.allowedString = None
-        # type: string
+        # Type: string
 
         self.allowedMoney = None
         # reference to Money
 
         self.usedUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.usedMoney = None
         # reference to Money

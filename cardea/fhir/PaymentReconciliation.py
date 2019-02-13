@@ -33,17 +33,17 @@ class PaymentReconciliation(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'PaymentReconciliation'
-        # type: string
+        # Type: string
         # possible values: PaymentReconciliation
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.period = None
         # reference to Period
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.organization = None
         # reference to Reference: identifier
@@ -55,7 +55,7 @@ class PaymentReconciliation(fhirbase):
         # reference to CodeableConcept
 
         self.disposition = None
-        # type: string
+        # Type: string
 
         self.requestProvider = None
         # reference to Reference: identifier
@@ -64,7 +64,7 @@ class PaymentReconciliation(fhirbase):
         # reference to Reference: identifier
 
         self.detail = None
-        # type: array
+        # Type: array
         # reference to PaymentReconciliation_Detail
 
         self.form = None
@@ -74,11 +74,11 @@ class PaymentReconciliation(fhirbase):
         # reference to Money
 
         self.processNote = None
-        # type: array
+        # Type: array
         # reference to PaymentReconciliation_ProcessNote
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -181,7 +181,7 @@ class PaymentReconciliation_Detail(fhirbase):
         # reference to Reference: identifier
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.amount = None
         # reference to Money
@@ -244,7 +244,7 @@ class PaymentReconciliation_ProcessNote(fhirbase):
         # reference to CodeableConcept
 
         self.text = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

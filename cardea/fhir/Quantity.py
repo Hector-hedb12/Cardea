@@ -26,20 +26,20 @@ class Quantity(fhirbase):
 
     def __init__(self, dict_values=None):
         self.value = None
-        # type: int
+        # Type: int
 
         self.comparator = None
-        # type: string
+        # Type: string
         # possible values: <, <=, >=, >
 
         self.unit = None
-        # type: string
+        # Type: string
 
         self.system = None
-        # type: string
+        # Type: string
 
         self.code = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

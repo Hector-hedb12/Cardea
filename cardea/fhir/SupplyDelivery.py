@@ -34,19 +34,19 @@ class SupplyDelivery(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'SupplyDelivery'
-        # type: string
+        # Type: string
         # possible values: SupplyDelivery
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.partOf = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: in-progress, completed, abandoned,
         # entered-in-error
 
@@ -60,7 +60,7 @@ class SupplyDelivery(fhirbase):
         # reference to SupplyDelivery_SuppliedItem
 
         self.occurrenceDateTime = None
-        # type: string
+        # Type: string
 
         self.occurrencePeriod = None
         # reference to Period
@@ -75,7 +75,7 @@ class SupplyDelivery(fhirbase):
         # reference to Reference: identifier
 
         self.receiver = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None

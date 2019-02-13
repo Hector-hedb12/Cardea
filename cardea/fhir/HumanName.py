@@ -26,24 +26,24 @@ class HumanName(fhirbase):
 
     def __init__(self, dict_values=None):
         self.use = None
-        # type: string
+        # Type: string
         # possible values: usual, official, temp, nickname, anonymous,
         # old, maiden
 
         self.text = None
-        # type: string
+        # Type: string
 
         self.family = None
-        # type: string
+        # Type: string
 
         self.given = None
-        # type: array
+        # Type: array
 
         self.prefix = None
-        # type: array
+        # Type: array
 
         self.suffix = None
-        # type: array
+        # Type: array
 
         self.period = None
         # reference to Period

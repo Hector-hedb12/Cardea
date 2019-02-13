@@ -43,42 +43,42 @@ class Provenance(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Provenance'
-        # type: string
+        # Type: string
         # possible values: Provenance
 
         self.target = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.period = None
         # reference to Period
 
         self.recorded = None
-        # type: string
+        # Type: string
 
         self.policy = None
-        # type: array
+        # Type: array
 
         self.location = None
         # reference to Reference: identifier
 
         self.reason = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.activity = None
         # reference to Coding
 
         self.agent = None
-        # type: array
+        # Type: array
         # reference to Provenance_Agent
 
         self.entity = None
-        # type: array
+        # Type: array
         # reference to Provenance_Entity
 
         self.signature = None
-        # type: array
+        # Type: array
         # reference to Signature
 
         self.object_id = None
@@ -165,17 +165,17 @@ class Provenance_Agent(fhirbase):
 
     def __init__(self, dict_values=None):
         self.role = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.whoUri = None
-        # type: string
+        # Type: string
 
         self.whoReference = None
         # reference to Reference: identifier
 
         self.onBehalfOfUri = None
-        # type: string
+        # Type: string
 
         self.onBehalfOfReference = None
         # reference to Reference: identifier
@@ -246,12 +246,12 @@ class Provenance_Entity(fhirbase):
 
     def __init__(self, dict_values=None):
         self.role = None
-        # type: string
+        # Type: string
         # possible values: derivation, revision, quotation, source,
         # removal
 
         self.whatUri = None
-        # type: string
+        # Type: string
 
         self.whatReference = None
         # reference to Reference: identifier
@@ -260,7 +260,7 @@ class Provenance_Entity(fhirbase):
         # reference to Identifier
 
         self.agent = None
-        # type: array
+        # Type: array
         # reference to Provenance_Agent
 
         self.object_id = None

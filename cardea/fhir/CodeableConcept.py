@@ -17,11 +17,11 @@ class CodeableConcept(fhirbase):
 
     def __init__(self, dict_values=None):
         self.coding = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.text = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

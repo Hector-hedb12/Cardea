@@ -28,20 +28,20 @@ class Meta(fhirbase):
 
     def __init__(self, dict_values=None):
         self.versionId = None
-        # type: string
+        # Type: string
 
         self.lastUpdated = None
-        # type: string
+        # Type: string
 
         self.profile = None
-        # type: array
+        # Type: array
 
         self.security = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.tag = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.object_id = None

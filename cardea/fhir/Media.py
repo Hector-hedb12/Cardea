@@ -52,15 +52,15 @@ class Media(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Media'
-        # type: string
+        # Type: string
         # possible values: Media
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: photo, video, audio
 
         self.subtype = None
@@ -76,7 +76,7 @@ class Media(fhirbase):
         # reference to Reference: identifier
 
         self.occurrenceDateTime = None
-        # type: string
+        # Type: string
 
         self.occurrencePeriod = None
         # reference to Period
@@ -85,7 +85,7 @@ class Media(fhirbase):
         # reference to Reference: identifier
 
         self.reasonCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.bodySite = None
@@ -95,26 +95,26 @@ class Media(fhirbase):
         # reference to Reference: identifier
 
         self.height = None
-        # type: int
+        # Type: int
 
         self.width = None
-        # type: int
+        # Type: int
 
         self.frames = None
-        # type: int
+        # Type: int
 
         self.duration = None
-        # type: int
+        # Type: int
 
         self.content = None
         # reference to Attachment
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

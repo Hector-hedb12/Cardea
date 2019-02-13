@@ -41,11 +41,11 @@ class EligibilityRequest(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'EligibilityRequest'
-        # type: string
+        # Type: string
         # possible values: EligibilityRequest
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.priority = None
         # reference to CodeableConcept
@@ -54,13 +54,13 @@ class EligibilityRequest(fhirbase):
         # reference to Reference: identifier
 
         self.servicedDate = None
-        # type: string
+        # Type: string
 
         self.servicedPeriod = None
         # reference to Period
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.enterer = None
         # reference to Reference: identifier
@@ -81,7 +81,7 @@ class EligibilityRequest(fhirbase):
         # reference to Reference: identifier
 
         self.businessArrangement = None
-        # type: string
+        # Type: string
 
         self.benefitCategory = None
         # reference to CodeableConcept
@@ -90,7 +90,7 @@ class EligibilityRequest(fhirbase):
         # reference to CodeableConcept
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

@@ -86,34 +86,34 @@ class MedicationRequest(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'MedicationRequest'
-        # type: string
+        # Type: string
         # possible values: MedicationRequest
 
         self.definition = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.groupIdentifier = None
         # reference to Identifier
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: active, on-hold, cancelled, completed,
         # entered-in-error, stopped, draft, unknown
 
         self.intent = None
-        # type: string
+        # Type: string
         # possible values: proposal, plan, order, instance-order
 
         self.category = None
         # reference to CodeableConcept
 
         self.priority = None
-        # type: string
+        # Type: string
         # possible values: routine, urgent, stat, asap
 
         self.medicationCodeableConcept = None
@@ -129,11 +129,11 @@ class MedicationRequest(fhirbase):
         # reference to Reference: identifier
 
         self.supportingInformation = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.authoredOn = None
-        # type: string
+        # Type: string
 
         self.requester = None
         # reference to MedicationRequest_Requester
@@ -142,19 +142,19 @@ class MedicationRequest(fhirbase):
         # reference to Reference: identifier
 
         self.reasonCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonReference = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.dosageInstruction = None
-        # type: array
+        # Type: array
         # reference to Dosage
 
         self.dispenseRequest = None
@@ -167,15 +167,15 @@ class MedicationRequest(fhirbase):
         # reference to Reference: identifier
 
         self.detectedIssue = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.eventHistory = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -397,7 +397,7 @@ class MedicationRequest_DispenseRequest(fhirbase):
         # reference to Period
 
         self.numberOfRepeatsAllowed = None
-        # type: int
+        # Type: int
 
         self.quantity = None
         # reference to Quantity
@@ -459,7 +459,7 @@ class MedicationRequest_Substitution(fhirbase):
 
     def __init__(self, dict_values=None):
         self.allowed = None
-        # type: boolean
+        # Type: boolean
 
         self.reason = None
         # reference to CodeableConcept

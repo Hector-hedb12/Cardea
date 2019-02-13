@@ -47,14 +47,14 @@ class Immunization(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Immunization'
-        # type: string
+        # Type: string
         # possible values: Immunization
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.notGiven = None
-        # type: boolean
+        # Type: boolean
 
         self.vaccineCode = None
         # reference to CodeableConcept
@@ -66,10 +66,10 @@ class Immunization(fhirbase):
         # reference to Reference: identifier
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.primarySource = None
-        # type: boolean
+        # Type: boolean
 
         self.reportOrigin = None
         # reference to CodeableConcept
@@ -81,10 +81,10 @@ class Immunization(fhirbase):
         # reference to Reference: identifier
 
         self.lotNumber = None
-        # type: string
+        # Type: string
 
         self.expirationDate = None
-        # type: string
+        # Type: string
 
         self.site = None
         # reference to CodeableConcept
@@ -96,26 +96,26 @@ class Immunization(fhirbase):
         # reference to Quantity
 
         self.practitioner = None
-        # type: array
+        # Type: array
         # reference to Immunization_Practitioner
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.explanation = None
         # reference to Immunization_Explanation
 
         self.reaction = None
-        # type: array
+        # Type: array
         # reference to Immunization_Reaction
 
         self.vaccinationProtocol = None
-        # type: array
+        # Type: array
         # reference to Immunization_VaccinationProtocol
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -261,11 +261,11 @@ class Immunization_Explanation(fhirbase):
 
     def __init__(self, dict_values=None):
         self.reason = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonNotGiven = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.object_id = None
@@ -306,13 +306,13 @@ class Immunization_Reaction(fhirbase):
 
     def __init__(self, dict_values=None):
         self.date = None
-        # type: string
+        # Type: string
 
         self.detail = None
         # reference to Reference: identifier
 
         self.reported = None
-        # type: boolean
+        # Type: boolean
 
         self.object_id = None
         # unique identifier for object class
@@ -357,22 +357,22 @@ class Immunization_VaccinationProtocol(fhirbase):
 
     def __init__(self, dict_values=None):
         self.doseSequence = None
-        # type: int
+        # Type: int
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.authority = None
         # reference to Reference: identifier
 
         self.series = None
-        # type: string
+        # Type: string
 
         self.seriesDoses = None
-        # type: int
+        # Type: int
 
         self.targetDisease = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.doseStatus = None

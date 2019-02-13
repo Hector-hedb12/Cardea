@@ -84,90 +84,90 @@ class SearchParameter(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'SearchParameter'
-        # type: string
+        # Type: string
         # possible values: SearchParameter
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.code = None
-        # type: string
+        # Type: string
 
         self.base = None
-        # type: array
+        # Type: array
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: number, date, string, token, reference,
         # composite, quantity, uri
 
         self.derivedFrom = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.expression = None
-        # type: string
+        # Type: string
 
         self.xpath = None
-        # type: string
+        # Type: string
 
         self.xpathUsage = None
-        # type: string
+        # Type: string
         # possible values: normal, phonetic, nearby, distance, other
 
         self.target = None
-        # type: array
+        # Type: array
 
         self.comparator = None
-        # type: array
+        # Type: array
         # possible values: eq, ne, gt, lt, ge, le, sa, eb, ap
 
         self.modifier = None
-        # type: array
+        # Type: array
         # possible values: missing, exact, contains, not, text, in,
         # not-in, below, above, type
 
         self.chain = None
-        # type: array
+        # Type: array
 
         self.component = None
-        # type: array
+        # Type: array
         # reference to SearchParameter_Component
 
         self.object_id = None
@@ -261,7 +261,7 @@ class SearchParameter_Component(fhirbase):
         # reference to Reference: identifier
 
         self.expression = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

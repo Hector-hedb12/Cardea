@@ -66,32 +66,32 @@ class DeviceRequest(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'DeviceRequest'
-        # type: string
+        # Type: string
         # possible values: DeviceRequest
 
         self.definition = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.priorRequest = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.groupIdentifier = None
         # reference to Identifier
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.intent = None
         # reference to CodeableConcept
 
         self.priority = None
-        # type: string
+        # Type: string
 
         self.codeReference = None
         # reference to Reference: identifier
@@ -106,7 +106,7 @@ class DeviceRequest(fhirbase):
         # reference to Reference: identifier
 
         self.occurrenceDateTime = None
-        # type: string
+        # Type: string
 
         self.occurrencePeriod = None
         # reference to Period
@@ -115,7 +115,7 @@ class DeviceRequest(fhirbase):
         # reference to Timing
 
         self.authoredOn = None
-        # type: string
+        # Type: string
 
         self.requester = None
         # reference to DeviceRequest_Requester
@@ -127,27 +127,27 @@ class DeviceRequest(fhirbase):
         # reference to Reference: identifier
 
         self.reasonCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonReference = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.supportingInfo = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.relevantHistory = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

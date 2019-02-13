@@ -48,15 +48,15 @@ class Sequence(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Sequence'
-        # type: string
+        # Type: string
         # possible values: Sequence
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: aa, dna, rna
 
         self.coordinateSystem = None
-        # type: int
+        # Type: int
 
         self.patient = None
         # reference to Reference: identifier
@@ -77,29 +77,29 @@ class Sequence(fhirbase):
         # reference to Sequence_ReferenceSeq
 
         self.variant = None
-        # type: array
+        # Type: array
         # reference to Sequence_Variant
 
         self.observedSeq = None
-        # type: string
+        # Type: string
 
         self.quality = None
-        # type: array
+        # Type: array
         # reference to Sequence_Quality
 
         self.readCoverage = None
-        # type: int
+        # Type: int
 
         self.repository = None
-        # type: array
+        # Type: array
         # reference to Sequence_Repository
 
         self.pointer = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -214,7 +214,7 @@ class Sequence_ReferenceSeq(fhirbase):
         # reference to CodeableConcept
 
         self.genomeBuild = None
-        # type: string
+        # Type: string
 
         self.referenceSeqId = None
         # reference to CodeableConcept
@@ -223,16 +223,16 @@ class Sequence_ReferenceSeq(fhirbase):
         # reference to Reference: identifier
 
         self.referenceSeqString = None
-        # type: string
+        # Type: string
 
         self.strand = None
-        # type: int
+        # Type: int
 
         self.windowStart = None
-        # type: int
+        # Type: int
 
         self.windowEnd = None
-        # type: int
+        # Type: int
 
         self.object_id = None
         # unique identifier for object class
@@ -299,19 +299,19 @@ class Sequence_Variant(fhirbase):
 
     def __init__(self, dict_values=None):
         self.start = None
-        # type: int
+        # Type: int
 
         self.end = None
-        # type: int
+        # Type: int
 
         self.observedAllele = None
-        # type: string
+        # Type: string
 
         self.referenceAllele = None
-        # type: string
+        # Type: string
 
         self.cigar = None
-        # type: string
+        # Type: string
 
         self.variantPointer = None
         # reference to Reference: identifier
@@ -381,17 +381,17 @@ class Sequence_Quality(fhirbase):
 
     def __init__(self, dict_values=None):
         self.type = None
-        # type: string
+        # Type: string
         # possible values: indel, snp, unknown
 
         self.standardSequence = None
         # reference to CodeableConcept
 
         self.start = None
-        # type: int
+        # Type: int
 
         self.end = None
-        # type: int
+        # Type: int
 
         self.score = None
         # reference to Quantity
@@ -400,28 +400,28 @@ class Sequence_Quality(fhirbase):
         # reference to CodeableConcept
 
         self.truthTP = None
-        # type: int
+        # Type: int
 
         self.queryTP = None
-        # type: int
+        # Type: int
 
         self.truthFN = None
-        # type: int
+        # Type: int
 
         self.queryFP = None
-        # type: int
+        # Type: int
 
         self.gtFP = None
-        # type: int
+        # Type: int
 
         self.precision = None
-        # type: int
+        # Type: int
 
         self.recall = None
-        # type: int
+        # Type: int
 
         self.fScore = None
-        # type: int
+        # Type: int
 
         self.object_id = None
         # unique identifier for object class
@@ -483,23 +483,23 @@ class Sequence_Repository(fhirbase):
 
     def __init__(self, dict_values=None):
         self.type = None
-        # type: string
+        # Type: string
         # possible values: directlink, openapi, login, oauth, other
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.datasetId = None
-        # type: string
+        # Type: string
 
         self.variantsetId = None
-        # type: string
+        # Type: string
 
         self.readsetId = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

@@ -32,11 +32,11 @@ class SupplyRequest(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'SupplyRequest'
-        # type: string
+        # Type: string
         # possible values: SupplyRequest
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, suspended, cancelled,
         # completed, entered-in-error, unknown
 
@@ -44,13 +44,13 @@ class SupplyRequest(fhirbase):
         # reference to CodeableConcept
 
         self.priority = None
-        # type: string
+        # Type: string
 
         self.orderedItem = None
         # reference to SupplyRequest_OrderedItem
 
         self.occurrenceDateTime = None
-        # type: string
+        # Type: string
 
         self.occurrencePeriod = None
         # reference to Period
@@ -59,13 +59,13 @@ class SupplyRequest(fhirbase):
         # reference to Timing
 
         self.authoredOn = None
-        # type: string
+        # Type: string
 
         self.requester = None
         # reference to SupplyRequest_Requester
 
         self.supplier = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.reasonCodeableConcept = None

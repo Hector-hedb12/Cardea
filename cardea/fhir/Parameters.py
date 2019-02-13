@@ -15,7 +15,7 @@ class Parameters(fhirbase):
 
     def __init__(self, dict_values=None):
         self.parameter = None
-        # type: array
+        # Type: array
         # reference to Parameters_Parameter
 
         self.object_id = None
@@ -104,58 +104,58 @@ class Parameters_Parameter(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.valueBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.valueInteger = None
-        # type: int
+        # Type: int
 
         self.valueDecimal = None
-        # type: int
+        # Type: int
 
         self.valueBase64Binary = None
-        # type: string
+        # Type: string
 
         self.valueInstant = None
-        # type: string
+        # Type: string
 
         self.valueString = None
-        # type: string
+        # Type: string
 
         self.valueUri = None
-        # type: string
+        # Type: string
 
         self.valueDate = None
-        # type: string
+        # Type: string
 
         self.valueDateTime = None
-        # type: string
+        # Type: string
 
         self.valueTime = None
-        # type: string
+        # Type: string
 
         self.valueCode = None
-        # type: string
+        # Type: string
 
         self.valueOid = None
-        # type: string
+        # Type: string
 
         self.valueUuid = None
-        # type: string
+        # Type: string
 
         self.valueId = None
-        # type: string
+        # Type: string
 
         self.valueUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.valuePositiveInt = None
-        # type: int
+        # Type: int
 
         self.valueMarkdown = None
-        # type: string
+        # Type: string
 
         self.valueElement = None
         # reference to Element: id
@@ -269,7 +269,7 @@ class Parameters_Parameter(fhirbase):
         # reference to ResourceList
 
         self.part = None
-        # type: array
+        # Type: array
         # reference to Parameters_Parameter
 
         self.object_id = None

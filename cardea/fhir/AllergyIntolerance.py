@@ -59,28 +59,28 @@ class AllergyIntolerance(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'AllergyIntolerance'
-        # type: string
+        # Type: string
         # possible values: AllergyIntolerance
 
         self.clinicalStatus = None
-        # type: string
+        # Type: string
         # possible values: active, inactive, resolved
 
         self.verificationStatus = None
-        # type: string
+        # Type: string
         # possible values: unconfirmed, confirmed, refuted,
         # entered-in-error
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: allergy, intolerance
 
         self.category = None
-        # type: array
+        # Type: array
         # possible values: food, medication, environment, biologic
 
         self.criticality = None
-        # type: string
+        # Type: string
         # possible values: low, high, unable-to-assess
 
         self.code = None
@@ -90,7 +90,7 @@ class AllergyIntolerance(fhirbase):
         # reference to Reference: identifier
 
         self.onsetDateTime = None
-        # type: string
+        # Type: string
 
         self.onsetAge = None
         # reference to Age
@@ -102,10 +102,10 @@ class AllergyIntolerance(fhirbase):
         # reference to Range
 
         self.onsetString = None
-        # type: string
+        # Type: string
 
         self.assertedDate = None
-        # type: string
+        # Type: string
 
         self.recorder = None
         # reference to Reference: identifier
@@ -114,18 +114,18 @@ class AllergyIntolerance(fhirbase):
         # reference to Reference: identifier
 
         self.lastOccurrence = None
-        # type: string
+        # Type: string
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.reaction = None
-        # type: array
+        # Type: array
         # reference to AllergyIntolerance_Reaction
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -258,24 +258,24 @@ class AllergyIntolerance_Reaction(fhirbase):
         # reference to CodeableConcept
 
         self.manifestation = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.onset = None
-        # type: string
+        # Type: string
 
         self.severity = None
-        # type: string
+        # Type: string
         # possible values: mild, moderate, severe
 
         self.exposureRoute = None
         # reference to CodeableConcept
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.object_id = None

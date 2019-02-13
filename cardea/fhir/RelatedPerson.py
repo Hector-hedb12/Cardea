@@ -30,11 +30,11 @@ class RelatedPerson(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'RelatedPerson'
-        # type: string
+        # Type: string
         # possible values: RelatedPerson
 
         self.active = None
-        # type: boolean
+        # Type: boolean
 
         self.patient = None
         # reference to Reference: identifier
@@ -43,33 +43,33 @@ class RelatedPerson(fhirbase):
         # reference to CodeableConcept
 
         self.name = None
-        # type: array
+        # Type: array
         # reference to HumanName
 
         self.telecom = None
-        # type: array
+        # Type: array
         # reference to ContactPoint
 
         self.gender = None
-        # type: string
+        # Type: string
         # possible values: male, female, other, unknown
 
         self.birthDate = None
-        # type: string
+        # Type: string
 
         self.address = None
-        # type: array
+        # Type: array
         # reference to Address
 
         self.photo = None
-        # type: array
+        # Type: array
         # reference to Attachment
 
         self.period = None
         # reference to Period
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

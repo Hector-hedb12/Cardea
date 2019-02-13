@@ -81,91 +81,91 @@ class TestScript(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'TestScript'
-        # type: string
+        # Type: string
         # possible values: TestScript
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.copyright = None
-        # type: string
+        # Type: string
 
         self.origin = None
-        # type: array
+        # Type: array
         # reference to TestScript_Origin
 
         self.destination = None
-        # type: array
+        # Type: array
         # reference to TestScript_Destination
 
         self.metadata = None
         # reference to TestScript_Metadata
 
         self.fixture = None
-        # type: array
+        # Type: array
         # reference to TestScript_Fixture
 
         self.profile = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.variable = None
-        # type: array
+        # Type: array
         # reference to TestScript_Variable
 
         self.rule = None
-        # type: array
+        # Type: array
         # reference to TestScript_Rule
 
         self.ruleset = None
-        # type: array
+        # Type: array
         # reference to TestScript_Ruleset
 
         self.setup = None
         # reference to TestScript_Setup
 
         self.test = None
-        # type: array
+        # Type: array
         # reference to TestScript_Test
 
         self.teardown = None
@@ -282,7 +282,7 @@ class TestScript_Origin(fhirbase):
 
     def __init__(self, dict_values=None):
         self.index = None
-        # type: int
+        # Type: int
 
         self.profile = None
         # reference to Coding
@@ -318,7 +318,7 @@ class TestScript_Destination(fhirbase):
 
     def __init__(self, dict_values=None):
         self.index = None
-        # type: int
+        # Type: int
 
         self.profile = None
         # reference to Coding
@@ -354,11 +354,11 @@ class TestScript_Metadata(fhirbase):
 
     def __init__(self, dict_values=None):
         self.link = None
-        # type: array
+        # Type: array
         # reference to TestScript_Link
 
         self.capability = None
-        # type: array
+        # Type: array
         # reference to TestScript_Capability
 
         self.object_id = None
@@ -397,10 +397,10 @@ class TestScript_Link(fhirbase):
 
     def __init__(self, dict_values=None):
         self.url = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -435,22 +435,22 @@ class TestScript_Capability(fhirbase):
 
     def __init__(self, dict_values=None):
         self.required = None
-        # type: boolean
+        # Type: boolean
 
         self.validated = None
-        # type: boolean
+        # Type: boolean
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.origin = None
-        # type: array
+        # Type: array
 
         self.destination = None
-        # type: int
+        # Type: int
 
         self.link = None
-        # type: array
+        # Type: array
 
         self.capabilities = None
         # reference to Reference: identifier
@@ -493,10 +493,10 @@ class TestScript_Fixture(fhirbase):
 
     def __init__(self, dict_values=None):
         self.autocreate = None
-        # type: boolean
+        # Type: boolean
 
         self.autodelete = None
-        # type: boolean
+        # Type: boolean
 
         self.resource = None
         # reference to Reference: identifier
@@ -546,28 +546,28 @@ class TestScript_Variable(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.defaultValue = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.expression = None
-        # type: string
+        # Type: string
 
         self.headerField = None
-        # type: string
+        # Type: string
 
         self.hint = None
-        # type: string
+        # Type: string
 
         self.path = None
-        # type: string
+        # Type: string
 
         self.sourceId = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -595,7 +595,7 @@ class TestScript_Rule(fhirbase):
         # reference to Reference: identifier
 
         self.param = None
-        # type: array
+        # Type: array
         # reference to TestScript_Param
 
         self.object_id = None
@@ -635,10 +635,10 @@ class TestScript_Param(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -665,7 +665,7 @@ class TestScript_Ruleset(fhirbase):
         # reference to Reference: identifier
 
         self.rule = None
-        # type: array
+        # Type: array
         # reference to TestScript_Rule1
 
         self.object_id = None
@@ -705,10 +705,10 @@ class TestScript_Rule1(fhirbase):
 
     def __init__(self, dict_values=None):
         self.ruleId = None
-        # type: string
+        # Type: string
 
         self.param = None
-        # type: array
+        # Type: array
         # reference to TestScript_Param1
 
         self.object_id = None
@@ -743,10 +743,10 @@ class TestScript_Param1(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -768,7 +768,7 @@ class TestScript_Setup(fhirbase):
 
     def __init__(self, dict_values=None):
         self.action = None
-        # type: array
+        # Type: array
         # reference to TestScript_Action
 
         self.object_id = None
@@ -873,52 +873,52 @@ class TestScript_Operation(fhirbase):
         # reference to Coding
 
         self.resource = None
-        # type: string
+        # Type: string
 
         self.label = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.accept = None
-        # type: string
+        # Type: string
         # possible values: xml, json, ttl, none
 
         self.contentType = None
-        # type: string
+        # Type: string
         # possible values: xml, json, ttl, none
 
         self.destination = None
-        # type: int
+        # Type: int
 
         self.encodeRequestUrl = None
-        # type: boolean
+        # Type: boolean
 
         self.origin = None
-        # type: int
+        # Type: int
 
         self.params = None
-        # type: string
+        # Type: string
 
         self.requestHeader = None
-        # type: array
+        # Type: array
         # reference to TestScript_RequestHeader
 
         self.requestId = None
-        # type: string
+        # Type: string
 
         self.responseId = None
-        # type: string
+        # Type: string
 
         self.sourceId = None
-        # type: string
+        # Type: string
 
         self.targetId = None
-        # type: string
+        # Type: string
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -1000,10 +1000,10 @@ class TestScript_RequestHeader(fhirbase):
 
     def __init__(self, dict_values=None):
         self.field = None
-        # type: string
+        # Type: string
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -1071,66 +1071,66 @@ class TestScript_Assert(fhirbase):
 
     def __init__(self, dict_values=None):
         self.label = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.direction = None
-        # type: string
+        # Type: string
         # possible values: response, request
 
         self.compareToSourceId = None
-        # type: string
+        # Type: string
 
         self.compareToSourceExpression = None
-        # type: string
+        # Type: string
 
         self.compareToSourcePath = None
-        # type: string
+        # Type: string
 
         self.contentType = None
-        # type: string
+        # Type: string
         # possible values: xml, json, ttl, none
 
         self.expression = None
-        # type: string
+        # Type: string
 
         self.headerField = None
-        # type: string
+        # Type: string
 
         self.minimumId = None
-        # type: string
+        # Type: string
 
         self.navigationLinks = None
-        # type: boolean
+        # Type: boolean
 
         self.operator = None
-        # type: string
+        # Type: string
         # possible values: equals, notEquals, in, notIn, greaterThan,
         # lessThan, empty, notEmpty, contains, notContains, eval
 
         self.path = None
-        # type: string
+        # Type: string
 
         self.requestMethod = None
-        # type: string
+        # Type: string
         # possible values: delete, get, options, patch, post, put
 
         self.requestURL = None
-        # type: string
+        # Type: string
 
         self.resource = None
-        # type: string
+        # Type: string
 
         self.response = None
-        # type: string
+        # Type: string
         # possible values: okay, created, noContent, notModified, bad,
         # forbidden, notFound, methodNotAllowed, conflict, gone,
         # preconditionFailed, unprocessable
 
         self.responseCode = None
-        # type: string
+        # Type: string
 
         self.rule = None
         # reference to TestScript_Rule2
@@ -1139,16 +1139,16 @@ class TestScript_Assert(fhirbase):
         # reference to TestScript_Ruleset1
 
         self.sourceId = None
-        # type: string
+        # Type: string
 
         self.validateProfileId = None
-        # type: string
+        # Type: string
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.warningOnly = None
-        # type: boolean
+        # Type: boolean
 
         self.object_id = None
         # unique identifier for object class
@@ -1269,10 +1269,10 @@ class TestScript_Rule2(fhirbase):
 
     def __init__(self, dict_values=None):
         self.ruleId = None
-        # type: string
+        # Type: string
 
         self.param = None
-        # type: array
+        # Type: array
         # reference to TestScript_Param2
 
         self.object_id = None
@@ -1307,10 +1307,10 @@ class TestScript_Param2(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -1333,10 +1333,10 @@ class TestScript_Ruleset1(fhirbase):
 
     def __init__(self, dict_values=None):
         self.rulesetId = None
-        # type: string
+        # Type: string
 
         self.rule = None
-        # type: array
+        # Type: array
         # reference to TestScript_Rule3
 
         self.object_id = None
@@ -1371,10 +1371,10 @@ class TestScript_Rule3(fhirbase):
 
     def __init__(self, dict_values=None):
         self.ruleId = None
-        # type: string
+        # Type: string
 
         self.param = None
-        # type: array
+        # Type: array
         # reference to TestScript_Param3
 
         self.object_id = None
@@ -1409,10 +1409,10 @@ class TestScript_Param3(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -1438,13 +1438,13 @@ class TestScript_Test(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.action = None
-        # type: array
+        # Type: array
         # reference to TestScript_Action1
 
         self.object_id = None
@@ -1517,7 +1517,7 @@ class TestScript_Teardown(fhirbase):
 
     def __init__(self, dict_values=None):
         self.action = None
-        # type: array
+        # Type: array
         # reference to TestScript_Action2
 
         self.object_id = None

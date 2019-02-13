@@ -35,33 +35,33 @@ class Address(fhirbase):
 
     def __init__(self, dict_values=None):
         self.use = None
-        # type: string
+        # Type: string
         # possible values: home, work, temp, old
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: postal, physical, both
 
         self.text = None
-        # type: string
+        # Type: string
 
         self.line = None
-        # type: array
+        # Type: array
 
         self.city = None
-        # type: string
+        # Type: string
 
         self.district = None
-        # type: string
+        # Type: string
 
         self.state = None
-        # type: string
+        # Type: string
 
         self.postalCode = None
-        # type: string
+        # Type: string
 
         self.country = None
-        # type: string
+        # Type: string
 
         self.period = None
         # reference to Period

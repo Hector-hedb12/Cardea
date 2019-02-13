@@ -72,28 +72,28 @@ class Task(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Task'
-        # type: string
+        # Type: string
         # possible values: Task
 
         self.definitionUri = None
-        # type: string
+        # Type: string
 
         self.definitionReference = None
         # reference to Reference: identifier
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.groupIdentifier = None
         # reference to Identifier
 
         self.partOf = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, requested, received, accepted,
         # rejected, ready, cancelled, in-progress, on-hold, failed, completed,
         # entered-in-error
@@ -105,16 +105,16 @@ class Task(fhirbase):
         # reference to CodeableConcept
 
         self.intent = None
-        # type: string
+        # Type: string
 
         self.priority = None
-        # type: string
+        # Type: string
 
         self.code = None
         # reference to CodeableConcept
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.focus = None
         # reference to Reference: identifier
@@ -129,16 +129,16 @@ class Task(fhirbase):
         # reference to Period
 
         self.authoredOn = None
-        # type: string
+        # Type: string
 
         self.lastModified = None
-        # type: string
+        # Type: string
 
         self.requester = None
         # reference to Task_Requester
 
         self.performerType = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.owner = None
@@ -148,26 +148,26 @@ class Task(fhirbase):
         # reference to CodeableConcept
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.relevantHistory = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.restriction = None
         # reference to Task_Restriction
 
         self.input = None
-        # type: array
+        # Type: array
         # reference to Task_Input
 
         self.output = None
-        # type: array
+        # Type: array
         # reference to Task_Output
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -352,13 +352,13 @@ class Task_Restriction(fhirbase):
 
     def __init__(self, dict_values=None):
         self.repetitions = None
-        # type: int
+        # Type: int
 
         self.period = None
         # reference to Period
 
         self.recipient = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.object_id = None
@@ -458,55 +458,55 @@ class Task_Input(fhirbase):
         # reference to CodeableConcept
 
         self.valueBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.valueInteger = None
-        # type: int
+        # Type: int
 
         self.valueDecimal = None
-        # type: int
+        # Type: int
 
         self.valueBase64Binary = None
-        # type: string
+        # Type: string
 
         self.valueInstant = None
-        # type: string
+        # Type: string
 
         self.valueString = None
-        # type: string
+        # Type: string
 
         self.valueUri = None
-        # type: string
+        # Type: string
 
         self.valueDate = None
-        # type: string
+        # Type: string
 
         self.valueDateTime = None
-        # type: string
+        # Type: string
 
         self.valueTime = None
-        # type: string
+        # Type: string
 
         self.valueCode = None
-        # type: string
+        # Type: string
 
         self.valueOid = None
-        # type: string
+        # Type: string
 
         self.valueUuid = None
-        # type: string
+        # Type: string
 
         self.valueId = None
-        # type: string
+        # Type: string
 
         self.valueUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.valuePositiveInt = None
-        # type: int
+        # Type: int
 
         self.valueMarkdown = None
-        # type: string
+        # Type: string
 
         self.valueElement = None
         # reference to Element: id
@@ -888,55 +888,55 @@ class Task_Output(fhirbase):
         # reference to CodeableConcept
 
         self.valueBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.valueInteger = None
-        # type: int
+        # Type: int
 
         self.valueDecimal = None
-        # type: int
+        # Type: int
 
         self.valueBase64Binary = None
-        # type: string
+        # Type: string
 
         self.valueInstant = None
-        # type: string
+        # Type: string
 
         self.valueString = None
-        # type: string
+        # Type: string
 
         self.valueUri = None
-        # type: string
+        # Type: string
 
         self.valueDate = None
-        # type: string
+        # Type: string
 
         self.valueDateTime = None
-        # type: string
+        # Type: string
 
         self.valueTime = None
-        # type: string
+        # Type: string
 
         self.valueCode = None
-        # type: string
+        # Type: string
 
         self.valueOid = None
-        # type: string
+        # Type: string
 
         self.valueUuid = None
-        # type: string
+        # Type: string
 
         self.valueId = None
-        # type: string
+        # Type: string
 
         self.valueUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.valuePositiveInt = None
-        # type: int
+        # Type: int
 
         self.valueMarkdown = None
-        # type: string
+        # Type: string
 
         self.valueElement = None
         # reference to Element: id

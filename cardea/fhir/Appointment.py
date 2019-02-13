@@ -70,11 +70,11 @@ class Appointment(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Appointment'
-        # type: string
+        # Type: string
         # possible values: Appointment
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: proposed, pending, booked, arrived,
         # fulfilled, cancelled, noshow, entered-in-error
 
@@ -82,67 +82,67 @@ class Appointment(fhirbase):
         # reference to CodeableConcept
 
         self.serviceType = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.specialty = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.appointmentType = None
         # reference to CodeableConcept
 
         self.reason = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.indication = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.priority = None
-        # type: int
+        # Type: int
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.supportingInformation = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.start = None
-        # type: string
+        # Type: string
 
         self.end = None
-        # type: string
+        # Type: string
 
         self.minutesDuration = None
-        # type: int
+        # Type: int
 
         self.slot = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.comment = None
-        # type: string
+        # Type: string
 
         self.incomingReferral = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.participant = None
-        # type: array
+        # Type: array
         # reference to Appointment_Participant
 
         self.requestedPeriod = None
-        # type: array
+        # Type: array
         # reference to Period
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -246,18 +246,18 @@ class Appointment_Participant(fhirbase):
 
     def __init__(self, dict_values=None):
         self.type = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.actor = None
         # reference to Reference: identifier
 
         self.required = None
-        # type: string
+        # Type: string
         # possible values: required, optional, information-only
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: accepted, declined, tentative, needs-action
 
         self.object_id = None

@@ -30,10 +30,10 @@ class Reference(fhirbase):
 
     def __init__(self, dict_values=None):
         self.reference = None
-        # type: string
+        # Type: string
 
         self.display = None
-        # type: string
+        # Type: string
 
         self.identifier = None
         # reference to Identifier

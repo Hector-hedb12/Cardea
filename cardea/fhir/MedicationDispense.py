@@ -75,15 +75,15 @@ class MedicationDispense(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'MedicationDispense'
-        # type: string
+        # Type: string
         # possible values: MedicationDispense
 
         self.partOf = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: preparation, in-progress, on-hold,
         # completed, entered-in-error, stopped
 
@@ -103,15 +103,15 @@ class MedicationDispense(fhirbase):
         # reference to Reference: identifier
 
         self.supportingInformation = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.performer = None
-        # type: array
+        # Type: array
         # reference to MedicationDispense_Performer
 
         self.authorizingPrescription = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.type = None
@@ -124,35 +124,35 @@ class MedicationDispense(fhirbase):
         # reference to Quantity
 
         self.whenPrepared = None
-        # type: string
+        # Type: string
 
         self.whenHandedOver = None
-        # type: string
+        # Type: string
 
         self.destination = None
         # reference to Reference: identifier
 
         self.receiver = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.dosageInstruction = None
-        # type: array
+        # Type: array
         # reference to Dosage
 
         self.substitution = None
         # reference to MedicationDispense_Substitution
 
         self.detectedIssue = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.notDone = None
-        # type: boolean
+        # Type: boolean
 
         self.notDoneReasonCodeableConcept = None
         # reference to CodeableConcept
@@ -161,11 +161,11 @@ class MedicationDispense(fhirbase):
         # reference to Reference: identifier
 
         self.eventHistory = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -366,17 +366,17 @@ class MedicationDispense_Substitution(fhirbase):
 
     def __init__(self, dict_values=None):
         self.wasSubstituted = None
-        # type: boolean
+        # Type: boolean
 
         self.type = None
         # reference to CodeableConcept
 
         self.reason = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.responsibleParty = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.object_id = None

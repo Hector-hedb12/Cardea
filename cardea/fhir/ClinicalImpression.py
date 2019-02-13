@@ -61,18 +61,18 @@ class ClinicalImpression(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ClinicalImpression'
-        # type: string
+        # Type: string
         # possible values: ClinicalImpression
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, completed, entered-in-error
 
         self.code = None
         # reference to CodeableConcept
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.subject = None
         # reference to Reference: identifier
@@ -81,13 +81,13 @@ class ClinicalImpression(fhirbase):
         # reference to Reference: identifier
 
         self.effectiveDateTime = None
-        # type: string
+        # Type: string
 
         self.effectivePeriod = None
         # reference to Period
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.assessor = None
         # reference to Reference: identifier
@@ -96,41 +96,41 @@ class ClinicalImpression(fhirbase):
         # reference to Reference: identifier
 
         self.problem = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.investigation = None
-        # type: array
+        # Type: array
         # reference to ClinicalImpression_Investigation
 
         self.protocol = None
-        # type: array
+        # Type: array
 
         self.summary = None
-        # type: string
+        # Type: string
 
         self.finding = None
-        # type: array
+        # Type: array
         # reference to ClinicalImpression_Finding
 
         self.prognosisCodeableConcept = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.prognosisReference = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.action = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -247,7 +247,7 @@ class ClinicalImpression_Investigation(fhirbase):
         # reference to CodeableConcept
 
         self.item = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.object_id = None
@@ -300,7 +300,7 @@ class ClinicalImpression_Finding(fhirbase):
         # reference to Reference: identifier
 
         self.basis = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

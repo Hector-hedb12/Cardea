@@ -15,10 +15,10 @@ class ContactDetail(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.telecom = None
-        # type: array
+        # Type: array
         # reference to ContactPoint
 
         self.object_id = None

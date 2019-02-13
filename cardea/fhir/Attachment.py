@@ -26,28 +26,28 @@ class Attachment(fhirbase):
 
     def __init__(self, dict_values=None):
         self.contentType = None
-        # type: string
+        # Type: string
 
         self.language = None
-        # type: string
+        # Type: string
 
         self.data = None
-        # type: string
+        # Type: string
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.size = None
-        # type: int
+        # Type: int
 
         self.hash = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.creation = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

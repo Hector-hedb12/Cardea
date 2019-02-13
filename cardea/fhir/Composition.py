@@ -53,11 +53,11 @@ class Composition(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Composition'
-        # type: string
+        # Type: string
         # possible values: Composition
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: preliminary, final, amended,
         # entered-in-error
 
@@ -74,35 +74,35 @@ class Composition(fhirbase):
         # reference to Reference: identifier
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.author = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.confidentiality = None
-        # type: string
+        # Type: string
 
         self.attester = None
-        # type: array
+        # Type: array
         # reference to Composition_Attester
 
         self.custodian = None
         # reference to Reference: identifier
 
         self.relatesTo = None
-        # type: array
+        # Type: array
         # reference to Composition_RelatesTo
 
         self.event = None
-        # type: array
+        # Type: array
         # reference to Composition_Event
 
         self.section = None
-        # type: array
+        # Type: array
         # reference to Composition_Section
 
         self.identifier = None
@@ -201,11 +201,11 @@ class Composition_Attester(fhirbase):
 
     def __init__(self, dict_values=None):
         self.mode = None
-        # type: array
+        # Type: array
         # possible values: personal, professional, legal, official
 
         self.time = None
-        # type: string
+        # Type: string
 
         self.party = None
         # reference to Reference: identifier
@@ -258,7 +258,7 @@ class Composition_RelatesTo(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: string
+        # Type: string
 
         self.targetIdentifier = None
         # reference to Identifier
@@ -315,14 +315,14 @@ class Composition_Event(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.period = None
         # reference to Period
 
         self.detail = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.object_id = None
@@ -390,7 +390,7 @@ class Composition_Section(fhirbase):
 
     def __init__(self, dict_values=None):
         self.title = None
-        # type: string
+        # Type: string
 
         self.code = None
         # reference to CodeableConcept
@@ -399,20 +399,20 @@ class Composition_Section(fhirbase):
         # reference to Narrative
 
         self.mode = None
-        # type: string
+        # Type: string
 
         self.orderedBy = None
         # reference to CodeableConcept
 
         self.entry = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.emptyReason = None
         # reference to CodeableConcept
 
         self.section = None
-        # type: array
+        # Type: array
         # reference to Composition_Section
 
         self.object_id = None

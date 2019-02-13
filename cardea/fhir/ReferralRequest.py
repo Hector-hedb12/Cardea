@@ -74,38 +74,38 @@ class ReferralRequest(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ReferralRequest'
-        # type: string
+        # Type: string
         # possible values: ReferralRequest
 
         self.definition = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.replaces = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.groupIdentifier = None
         # reference to Identifier
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.intent = None
-        # type: string
+        # Type: string
 
         self.type = None
         # reference to CodeableConcept
 
         self.priority = None
-        # type: string
+        # Type: string
 
         self.serviceRequested = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.subject = None
@@ -115,13 +115,13 @@ class ReferralRequest(fhirbase):
         # reference to Reference: identifier
 
         self.occurrenceDateTime = None
-        # type: string
+        # Type: string
 
         self.occurrencePeriod = None
         # reference to Period
 
         self.authoredOn = None
-        # type: string
+        # Type: string
 
         self.requester = None
         # reference to ReferralRequest_Requester
@@ -130,34 +130,34 @@ class ReferralRequest(fhirbase):
         # reference to CodeableConcept
 
         self.recipient = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.reasonCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonReference = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.supportingInfo = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.relevantHistory = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

@@ -78,26 +78,26 @@ class Procedure(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Procedure'
-        # type: string
+        # Type: string
         # possible values: Procedure
 
         self.definition = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.partOf = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.notDone = None
-        # type: boolean
+        # Type: boolean
 
         self.notDoneReason = None
         # reference to CodeableConcept
@@ -115,67 +115,67 @@ class Procedure(fhirbase):
         # reference to Reference: identifier
 
         self.performedDateTime = None
-        # type: string
+        # Type: string
 
         self.performedPeriod = None
         # reference to Period
 
         self.performer = None
-        # type: array
+        # Type: array
         # reference to Procedure_Performer
 
         self.location = None
         # reference to Reference: identifier
 
         self.reasonCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonReference = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.bodySite = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.outcome = None
         # reference to CodeableConcept
 
         self.report = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.complication = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.complicationDetail = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.followUp = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.focalDevice = None
-        # type: array
+        # Type: array
         # reference to Procedure_FocalDevice
 
         self.usedReference = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.usedCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

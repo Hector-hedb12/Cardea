@@ -51,52 +51,52 @@ class NamingSystem(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'NamingSystem'
-        # type: string
+        # Type: string
         # possible values: NamingSystem
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.kind = None
-        # type: string
+        # Type: string
         # possible values: codesystem, identifier, root
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.responsible = None
-        # type: string
+        # Type: string
 
         self.type = None
         # reference to CodeableConcept
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.usage = None
-        # type: string
+        # Type: string
 
         self.uniqueId = None
-        # type: array
+        # Type: array
         # reference to NamingSystem_UniqueId
 
         self.replacedBy = None
@@ -183,17 +183,17 @@ class NamingSystem_UniqueId(fhirbase):
 
     def __init__(self, dict_values=None):
         self.type = None
-        # type: string
+        # Type: string
         # possible values: oid, uuid, uri, other
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.preferred = None
-        # type: boolean
+        # Type: boolean
 
         self.comment = None
-        # type: string
+        # Type: string
 
         self.period = None
         # reference to Period

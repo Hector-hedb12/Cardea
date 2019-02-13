@@ -91,92 +91,92 @@ class ServiceDefinition(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ServiceDefinition'
-        # type: string
+        # Type: string
         # possible values: ServiceDefinition
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.usage = None
-        # type: string
+        # Type: string
 
         self.approvalDate = None
-        # type: string
+        # Type: string
 
         self.lastReviewDate = None
-        # type: string
+        # Type: string
 
         self.effectivePeriod = None
         # reference to Period
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.topic = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.contributor = None
-        # type: array
+        # Type: array
         # reference to Contributor
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.copyright = None
-        # type: string
+        # Type: string
 
         self.relatedArtifact = None
-        # type: array
+        # Type: array
         # reference to RelatedArtifact
 
         self.trigger = None
-        # type: array
+        # Type: array
         # reference to TriggerDefinition
 
         self.dataRequirement = None
-        # type: array
+        # Type: array
         # reference to DataRequirement
 
         self.operationDefinition = None
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

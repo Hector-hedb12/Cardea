@@ -48,14 +48,14 @@ class MessageHeader(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'MessageHeader'
-        # type: string
+        # Type: string
         # possible values: MessageHeader
 
         self.event = None
         # reference to Coding
 
         self.destination = None
-        # type: array
+        # Type: array
         # reference to MessageHeader_Destination
 
         self.receiver = None
@@ -65,7 +65,7 @@ class MessageHeader(fhirbase):
         # reference to Reference: identifier
 
         self.timestamp = None
-        # type: string
+        # Type: string
 
         self.enterer = None
         # reference to Reference: identifier
@@ -86,7 +86,7 @@ class MessageHeader(fhirbase):
         # reference to MessageHeader_Response: identifier
 
         self.focus = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.object_id = None
@@ -175,13 +175,13 @@ class MessageHeader_Destination(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.target = None
         # reference to Reference: identifier
 
         self.endpoint = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -222,19 +222,19 @@ class MessageHeader_Source(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.software = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.contact = None
         # reference to ContactPoint
 
         self.endpoint = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -273,14 +273,14 @@ class MessageHeader_Response(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: string
+        # Type: string
         # possible values: ok, transient-error, fatal-error
 
         self.details = None
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: string
+        # Type: string
 
         if dict_values:
             self.set_attributes(dict_values)

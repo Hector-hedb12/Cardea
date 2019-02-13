@@ -35,15 +35,15 @@ class MeasureReport(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'MeasureReport'
-        # type: string
+        # Type: string
         # possible values: MeasureReport
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: complete, pending, error
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: individual, patient-list, summary
 
         self.measure = None
@@ -53,7 +53,7 @@ class MeasureReport(fhirbase):
         # reference to Reference: identifier
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.reportingOrganization = None
         # reference to Reference: identifier
@@ -62,7 +62,7 @@ class MeasureReport(fhirbase):
         # reference to Period
 
         self.group = None
-        # type: array
+        # Type: array
         # reference to MeasureReport_Group: identifier
 
         self.evaluatedResources = None
@@ -152,14 +152,14 @@ class MeasureReport_Group(fhirbase):
 
     def __init__(self, dict_values=None):
         self.population = None
-        # type: array
+        # Type: array
         # reference to MeasureReport_Population: identifier
 
         self.measureScore = None
-        # type: int
+        # Type: int
 
         self.stratifier = None
-        # type: array
+        # Type: array
         # reference to MeasureReport_Stratifier: identifier
 
         self.identifier = None
@@ -209,7 +209,7 @@ class MeasureReport_Population(fhirbase):
         # reference to CodeableConcept
 
         self.count = None
-        # type: int
+        # Type: int
 
         self.patients = None
         # reference to Reference: identifier
@@ -257,7 +257,7 @@ class MeasureReport_Stratifier(fhirbase):
 
     def __init__(self, dict_values=None):
         self.stratum = None
-        # type: array
+        # Type: array
         # reference to MeasureReport_Stratum
 
         self.identifier = None
@@ -301,14 +301,14 @@ class MeasureReport_Stratum(fhirbase):
 
     def __init__(self, dict_values=None):
         self.value = None
-        # type: string
+        # Type: string
 
         self.population = None
-        # type: array
+        # Type: array
         # reference to MeasureReport_Population1: identifier
 
         self.measureScore = None
-        # type: int
+        # Type: int
 
         self.object_id = None
         # unique identifier for object class
@@ -347,7 +347,7 @@ class MeasureReport_Population1(fhirbase):
         # reference to CodeableConcept
 
         self.count = None
-        # type: int
+        # Type: int
 
         self.patients = None
         # reference to Reference: identifier

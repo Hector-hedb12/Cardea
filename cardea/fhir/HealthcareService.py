@@ -59,11 +59,11 @@ class HealthcareService(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'HealthcareService'
-        # type: string
+        # Type: string
         # possible values: HealthcareService
 
         self.active = None
-        # type: boolean
+        # Type: boolean
 
         self.providedBy = None
         # reference to Reference: identifier
@@ -72,78 +72,78 @@ class HealthcareService(fhirbase):
         # reference to CodeableConcept
 
         self.type = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.specialty = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.location = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.comment = None
-        # type: string
+        # Type: string
 
         self.extraDetails = None
-        # type: string
+        # Type: string
 
         self.photo = None
         # reference to Attachment
 
         self.telecom = None
-        # type: array
+        # Type: array
         # reference to ContactPoint
 
         self.coverageArea = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.serviceProvisionCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.eligibility = None
         # reference to CodeableConcept
 
         self.eligibilityNote = None
-        # type: string
+        # Type: string
 
         self.programName = None
-        # type: array
+        # Type: array
 
         self.characteristic = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.referralMethod = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.appointmentRequired = None
-        # type: boolean
+        # Type: boolean
 
         self.availableTime = None
-        # type: array
+        # Type: array
         # reference to HealthcareService_AvailableTime
 
         self.notAvailable = None
-        # type: array
+        # Type: array
         # reference to HealthcareService_NotAvailable
 
         self.availabilityExceptions = None
-        # type: string
+        # Type: string
 
         self.endpoint = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -254,17 +254,17 @@ class HealthcareService_AvailableTime(fhirbase):
 
     def __init__(self, dict_values=None):
         self.daysOfWeek = None
-        # type: array
+        # Type: array
         # possible values: mon, tue, wed, thu, fri, sat, sun
 
         self.allDay = None
-        # type: boolean
+        # Type: boolean
 
         self.availableStartTime = None
-        # type: string
+        # Type: string
 
         self.availableEndTime = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -298,7 +298,7 @@ class HealthcareService_NotAvailable(fhirbase):
 
     def __init__(self, dict_values=None):
         self.description = None
-        # type: string
+        # Type: string
 
         self.during = None
         # reference to Period

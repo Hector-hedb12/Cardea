@@ -83,88 +83,88 @@ class CodeSystem(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'CodeSystem'
-        # type: string
+        # Type: string
         # possible values: CodeSystem
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.copyright = None
-        # type: string
+        # Type: string
 
         self.caseSensitive = None
-        # type: boolean
+        # Type: boolean
 
         self.valueSet = None
-        # type: string
+        # Type: string
 
         self.hierarchyMeaning = None
-        # type: string
+        # Type: string
         # possible values: grouped-by, is-a, part-of, classified-with
 
         self.compositional = None
-        # type: boolean
+        # Type: boolean
 
         self.versionNeeded = None
-        # type: boolean
+        # Type: boolean
 
         self.content = None
-        # type: string
+        # Type: string
         # possible values: not-present, example, fragment, complete
 
         self.count = None
-        # type: int
+        # Type: int
 
         self.filter = None
-        # type: array
+        # Type: array
         # reference to CodeSystem_Filter
 
         self.property = None
-        # type: array
+        # Type: array
         # reference to CodeSystem_Property
 
         self.concept = None
-        # type: array
+        # Type: array
         # reference to CodeSystem_Concept
 
         self.identifier = None
@@ -254,16 +254,16 @@ class CodeSystem_Filter(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.operator = None
-        # type: array
+        # Type: array
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -295,16 +295,16 @@ class CodeSystem_Property(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: string
+        # Type: string
 
         self.uri = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: code, Coding, string, integer, boolean,
         # dateTime
 
@@ -352,24 +352,24 @@ class CodeSystem_Concept(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: string
+        # Type: string
 
         self.display = None
-        # type: string
+        # Type: string
 
         self.definition = None
-        # type: string
+        # Type: string
 
         self.designation = None
-        # type: array
+        # Type: array
         # reference to CodeSystem_Designation
 
         self.property = None
-        # type: array
+        # Type: array
         # reference to CodeSystem_Property1
 
         self.concept = None
-        # type: array
+        # Type: array
         # reference to CodeSystem_Concept
 
         self.object_id = None
@@ -413,13 +413,13 @@ class CodeSystem_Designation(fhirbase):
 
     def __init__(self, dict_values=None):
         self.language = None
-        # type: string
+        # Type: string
 
         self.use = None
         # reference to Coding
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -456,25 +456,25 @@ class CodeSystem_Property1(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: string
+        # Type: string
 
         self.valueCode = None
-        # type: string
+        # Type: string
 
         self.valueCoding = None
         # reference to Coding
 
         self.valueString = None
-        # type: string
+        # Type: string
 
         self.valueInteger = None
-        # type: int
+        # Type: int
 
         self.valueBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.valueDateTime = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

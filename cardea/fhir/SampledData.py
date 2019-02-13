@@ -35,22 +35,22 @@ class SampledData(fhirbase):
         # reference to Quantity
 
         self.period = None
-        # type: int
+        # Type: int
 
         self.factor = None
-        # type: int
+        # Type: int
 
         self.lowerLimit = None
-        # type: int
+        # Type: int
 
         self.upperLimit = None
-        # type: int
+        # Type: int
 
         self.dimensions = None
-        # type: int
+        # Type: int
 
         self.data = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

@@ -37,21 +37,21 @@ class ProcessRequest(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ProcessRequest'
-        # type: string
+        # Type: string
         # possible values: ProcessRequest
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.action = None
-        # type: string
+        # Type: string
         # possible values: cancel, poll, reprocess, status
 
         self.target = None
         # reference to Reference: identifier
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.provider = None
         # reference to Reference: identifier
@@ -66,26 +66,26 @@ class ProcessRequest(fhirbase):
         # reference to Reference: identifier
 
         self.nullify = None
-        # type: boolean
+        # Type: boolean
 
         self.reference = None
-        # type: string
+        # Type: string
 
         self.item = None
-        # type: array
+        # Type: array
         # reference to ProcessRequest_Item
 
         self.include = None
-        # type: array
+        # Type: array
 
         self.exclude = None
-        # type: array
+        # Type: array
 
         self.period = None
         # reference to Period
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -160,7 +160,7 @@ class ProcessRequest_Item(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequenceLinkId = None
-        # type: int
+        # Type: int
 
         self.object_id = None
         # unique identifier for object class

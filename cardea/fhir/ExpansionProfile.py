@@ -81,79 +81,79 @@ class ExpansionProfile(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ExpansionProfile'
-        # type: string
+        # Type: string
         # possible values: ExpansionProfile
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.fixedVersion = None
-        # type: array
+        # Type: array
         # reference to ExpansionProfile_FixedVersion
 
         self.excludedSystem = None
         # reference to ExpansionProfile_ExcludedSystem
 
         self.includeDesignations = None
-        # type: boolean
+        # Type: boolean
 
         self.designation = None
         # reference to ExpansionProfile_Designation
 
         self.includeDefinition = None
-        # type: boolean
+        # Type: boolean
 
         self.activeOnly = None
-        # type: boolean
+        # Type: boolean
 
         self.excludeNested = None
-        # type: boolean
+        # Type: boolean
 
         self.excludeNotForUI = None
-        # type: boolean
+        # Type: boolean
 
         self.excludePostCoordinated = None
-        # type: boolean
+        # Type: boolean
 
         self.displayLanguage = None
-        # type: string
+        # Type: string
 
         self.limitedExpansion = None
-        # type: boolean
+        # Type: boolean
 
         self.identifier = None
         # reference to Identifier
@@ -228,13 +228,13 @@ class ExpansionProfile_FixedVersion(fhirbase):
 
     def __init__(self, dict_values=None):
         self.system = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.mode = None
-        # type: string
+        # Type: string
         # possible values: default, check, override
 
         self.object_id = None
@@ -268,10 +268,10 @@ class ExpansionProfile_ExcludedSystem(fhirbase):
 
     def __init__(self, dict_values=None):
         self.system = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -331,7 +331,7 @@ class ExpansionProfile_Include(fhirbase):
 
     def __init__(self, dict_values=None):
         self.designation = None
-        # type: array
+        # Type: array
         # reference to ExpansionProfile_Designation1
 
         self.object_id = None
@@ -363,7 +363,7 @@ class ExpansionProfile_Designation1(fhirbase):
 
     def __init__(self, dict_values=None):
         self.language = None
-        # type: string
+        # Type: string
 
         self.use = None
         # reference to Coding
@@ -396,7 +396,7 @@ class ExpansionProfile_Exclude(fhirbase):
 
     def __init__(self, dict_values=None):
         self.designation = None
-        # type: array
+        # Type: array
         # reference to ExpansionProfile_Designation2
 
         self.object_id = None
@@ -428,7 +428,7 @@ class ExpansionProfile_Designation2(fhirbase):
 
     def __init__(self, dict_values=None):
         self.language = None
-        # type: string
+        # Type: string
 
         self.use = None
         # reference to Coding

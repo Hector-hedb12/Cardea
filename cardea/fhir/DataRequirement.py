@@ -31,20 +31,20 @@ class DataRequirement(fhirbase):
 
     def __init__(self, dict_values=None):
         self.type = None
-        # type: string
+        # Type: string
 
         self.profile = None
-        # type: array
+        # Type: array
 
         self.mustSupport = None
-        # type: array
+        # Type: array
 
         self.codeFilter = None
-        # type: array
+        # Type: array
         # reference to DataRequirement_CodeFilter
 
         self.dateFilter = None
-        # type: array
+        # Type: array
         # reference to DataRequirement_DateFilter
 
         self.object_id = None
@@ -111,23 +111,23 @@ class DataRequirement_CodeFilter(fhirbase):
 
     def __init__(self, dict_values=None):
         self.path = None
-        # type: string
+        # Type: string
 
         self.valueSetString = None
-        # type: string
+        # Type: string
 
         self.valueSetReference = None
         # reference to Reference: identifier
 
         self.valueCode = None
-        # type: array
+        # Type: array
 
         self.valueCoding = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.valueCodeableConcept = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.object_id = None
@@ -195,10 +195,10 @@ class DataRequirement_DateFilter(fhirbase):
 
     def __init__(self, dict_values=None):
         self.path = None
-        # type: string
+        # Type: string
 
         self.valueDateTime = None
-        # type: string
+        # Type: string
 
         self.valuePeriod = None
         # reference to Period

@@ -44,14 +44,14 @@ class DocumentManifest(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'DocumentManifest'
-        # type: string
+        # Type: string
         # possible values: DocumentManifest
 
         self.masterIdentifier = None
         # reference to Identifier
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: current, superseded, entered-in-error
 
         self.type = None
@@ -61,32 +61,32 @@ class DocumentManifest(fhirbase):
         # reference to Reference: identifier
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.author = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.recipient = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.source = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.content = None
-        # type: array
+        # Type: array
         # reference to DocumentManifest_Content
 
         self.related = None
-        # type: array
+        # Type: array
         # reference to DocumentManifest_Related: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

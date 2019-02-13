@@ -84,18 +84,18 @@ class ExplanationOfBenefit(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ExplanationOfBenefit'
-        # type: string
+        # Type: string
         # possible values: ExplanationOfBenefit
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: active, cancelled, draft, entered-in-error
 
         self.type = None
         # reference to CodeableConcept
 
         self.subType = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.patient = None
@@ -105,7 +105,7 @@ class ExplanationOfBenefit(fhirbase):
         # reference to Period
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.enterer = None
         # reference to Reference: identifier
@@ -135,10 +135,10 @@ class ExplanationOfBenefit(fhirbase):
         # reference to CodeableConcept
 
         self.disposition = None
-        # type: string
+        # Type: string
 
         self.related = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Related
 
         self.prescription = None
@@ -151,23 +151,23 @@ class ExplanationOfBenefit(fhirbase):
         # reference to ExplanationOfBenefit_Payee
 
         self.information = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Information
 
         self.careTeam = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_CareTeam
 
         self.diagnosis = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Diagnosis
 
         self.procedure = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Procedure
 
         self.precedence = None
-        # type: int
+        # Type: int
 
         self.insurance = None
         # reference to ExplanationOfBenefit_Insurance
@@ -182,11 +182,11 @@ class ExplanationOfBenefit(fhirbase):
         # reference to Period
 
         self.item = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Item
 
         self.addItem = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_AddItem
 
         self.totalCost = None
@@ -205,15 +205,15 @@ class ExplanationOfBenefit(fhirbase):
         # reference to CodeableConcept
 
         self.processNote = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_ProcessNote
 
         self.benefitBalance = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_BenefitBalance
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -550,7 +550,7 @@ class ExplanationOfBenefit_Information(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.category = None
         # reference to CodeableConcept
@@ -559,13 +559,13 @@ class ExplanationOfBenefit_Information(fhirbase):
         # reference to CodeableConcept
 
         self.timingDate = None
-        # type: string
+        # Type: string
 
         self.timingPeriod = None
         # reference to Period
 
         self.valueString = None
-        # type: string
+        # Type: string
 
         self.valueQuantity = None
         # reference to Quantity
@@ -646,13 +646,13 @@ class ExplanationOfBenefit_CareTeam(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.provider = None
         # reference to Reference: identifier
 
         self.responsible = None
-        # type: boolean
+        # Type: boolean
 
         self.role = None
         # reference to CodeableConcept
@@ -706,7 +706,7 @@ class ExplanationOfBenefit_Diagnosis(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.diagnosisCodeableConcept = None
         # reference to CodeableConcept
@@ -715,7 +715,7 @@ class ExplanationOfBenefit_Diagnosis(fhirbase):
         # reference to Reference: identifier
 
         self.type = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.packageCode = None
@@ -770,10 +770,10 @@ class ExplanationOfBenefit_Procedure(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.procedureCodeableConcept = None
         # reference to CodeableConcept
@@ -822,7 +822,7 @@ class ExplanationOfBenefit_Insurance(fhirbase):
         # reference to Reference: identifier
 
         self.preAuthRef = None
-        # type: array
+        # Type: array
 
         self.object_id = None
         # unique identifier for object class
@@ -857,7 +857,7 @@ class ExplanationOfBenefit_Accident(fhirbase):
 
     def __init__(self, dict_values=None):
         self.date = None
-        # type: string
+        # Type: string
 
         self.type = None
         # reference to CodeableConcept
@@ -957,19 +957,19 @@ class ExplanationOfBenefit_Item(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.careTeamLinkId = None
-        # type: array
+        # Type: array
 
         self.diagnosisLinkId = None
-        # type: array
+        # Type: array
 
         self.procedureLinkId = None
-        # type: array
+        # Type: array
 
         self.informationLinkId = None
-        # type: array
+        # Type: array
 
         self.revenue = None
         # reference to CodeableConcept
@@ -981,15 +981,15 @@ class ExplanationOfBenefit_Item(fhirbase):
         # reference to CodeableConcept
 
         self.modifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.programCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.servicedDate = None
-        # type: string
+        # Type: string
 
         self.servicedPeriod = None
         # reference to Period
@@ -1010,35 +1010,35 @@ class ExplanationOfBenefit_Item(fhirbase):
         # reference to Money
 
         self.factor = None
-        # type: int
+        # Type: int
 
         self.net = None
         # reference to Money
 
         self.udi = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.bodySite = None
         # reference to CodeableConcept
 
         self.subSite = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.encounter = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.noteNumber = None
-        # type: array
+        # Type: array
 
         self.adjudication = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Adjudication
 
         self.detail = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Detail
 
         self.object_id = None
@@ -1170,7 +1170,7 @@ class ExplanationOfBenefit_Adjudication(fhirbase):
         # reference to Money
 
         self.value = None
-        # type: int
+        # Type: int
 
         self.object_id = None
         # unique identifier for object class
@@ -1243,7 +1243,7 @@ class ExplanationOfBenefit_Detail(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.type = None
         # reference to CodeableConcept
@@ -1258,11 +1258,11 @@ class ExplanationOfBenefit_Detail(fhirbase):
         # reference to CodeableConcept
 
         self.modifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.programCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.quantity = None
@@ -1272,24 +1272,24 @@ class ExplanationOfBenefit_Detail(fhirbase):
         # reference to Money
 
         self.factor = None
-        # type: int
+        # Type: int
 
         self.net = None
         # reference to Money
 
         self.udi = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.noteNumber = None
-        # type: array
+        # Type: array
 
         self.adjudication = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Adjudication
 
         self.subDetail = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_SubDetail
 
         self.object_id = None
@@ -1402,7 +1402,7 @@ class ExplanationOfBenefit_SubDetail(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.type = None
         # reference to CodeableConcept
@@ -1417,11 +1417,11 @@ class ExplanationOfBenefit_SubDetail(fhirbase):
         # reference to CodeableConcept
 
         self.modifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.programCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.quantity = None
@@ -1431,20 +1431,20 @@ class ExplanationOfBenefit_SubDetail(fhirbase):
         # reference to Money
 
         self.factor = None
-        # type: int
+        # Type: int
 
         self.net = None
         # reference to Money
 
         self.udi = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.noteNumber = None
-        # type: array
+        # Type: array
 
         self.adjudication = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Adjudication
 
         self.object_id = None
@@ -1545,7 +1545,7 @@ class ExplanationOfBenefit_AddItem(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequenceLinkId = None
-        # type: array
+        # Type: array
 
         self.revenue = None
         # reference to CodeableConcept
@@ -1557,21 +1557,21 @@ class ExplanationOfBenefit_AddItem(fhirbase):
         # reference to CodeableConcept
 
         self.modifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.fee = None
         # reference to Money
 
         self.noteNumber = None
-        # type: array
+        # Type: array
 
         self.adjudication = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Adjudication
 
         self.detail = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Detail1
 
         self.object_id = None
@@ -1654,17 +1654,17 @@ class ExplanationOfBenefit_Detail1(fhirbase):
         # reference to CodeableConcept
 
         self.modifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.fee = None
         # reference to Money
 
         self.noteNumber = None
-        # type: array
+        # Type: array
 
         self.adjudication = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Adjudication
 
         self.object_id = None
@@ -1738,7 +1738,7 @@ class ExplanationOfBenefit_Payment(fhirbase):
         # reference to CodeableConcept
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.amount = None
         # reference to Money
@@ -1800,13 +1800,13 @@ class ExplanationOfBenefit_ProcessNote(fhirbase):
 
     def __init__(self, dict_values=None):
         self.number = None
-        # type: int
+        # Type: int
 
         self.type = None
         # reference to CodeableConcept
 
         self.text = None
-        # type: string
+        # Type: string
 
         self.language = None
         # reference to CodeableConcept
@@ -1867,13 +1867,13 @@ class ExplanationOfBenefit_BenefitBalance(fhirbase):
         # reference to CodeableConcept
 
         self.excluded = None
-        # type: boolean
+        # Type: boolean
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.network = None
         # reference to CodeableConcept
@@ -1885,7 +1885,7 @@ class ExplanationOfBenefit_BenefitBalance(fhirbase):
         # reference to CodeableConcept
 
         self.financial = None
-        # type: array
+        # Type: array
         # reference to ExplanationOfBenefit_Financial
 
         self.object_id = None
@@ -1951,16 +1951,16 @@ class ExplanationOfBenefit_Financial(fhirbase):
         # reference to CodeableConcept
 
         self.allowedUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.allowedString = None
-        # type: string
+        # Type: string
 
         self.allowedMoney = None
         # reference to Money
 
         self.usedUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.usedMoney = None
         # reference to Money

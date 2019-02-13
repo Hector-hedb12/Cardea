@@ -23,24 +23,24 @@ class Bundle(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Bundle'
-        # type: string
+        # Type: string
         # possible values: Bundle
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: document, message, transaction,
         # transaction-response, batch, batch-response, history, searchset,
         # collection
 
         self.total = None
-        # type: int
+        # Type: int
 
         self.link = None
-        # type: array
+        # Type: array
         # reference to Bundle_Link
 
         self.entry = None
-        # type: array
+        # Type: array
         # reference to Bundle_Entry
 
         self.signature = None
@@ -103,10 +103,10 @@ class Bundle_Link(fhirbase):
 
     def __init__(self, dict_values=None):
         self.relation = None
-        # type: string
+        # Type: string
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -141,11 +141,11 @@ class Bundle_Entry(fhirbase):
 
     def __init__(self, dict_values=None):
         self.link = None
-        # type: array
+        # Type: array
         # reference to Bundle_Link
 
         self.fullUrl = None
-        # type: string
+        # Type: string
 
         self.resource = None
         # reference to ResourceList
@@ -210,11 +210,11 @@ class Bundle_Search(fhirbase):
 
     def __init__(self, dict_values=None):
         self.mode = None
-        # type: string
+        # Type: string
         # possible values: match, include, outcome
 
         self.score = None
-        # type: int
+        # Type: int
 
         self.object_id = None
         # unique identifier for object class
@@ -262,23 +262,23 @@ class Bundle_Request(fhirbase):
 
     def __init__(self, dict_values=None):
         self.method = None
-        # type: string
+        # Type: string
         # possible values: GET, POST, PUT, DELETE
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.ifNoneMatch = None
-        # type: string
+        # Type: string
 
         self.ifModifiedSince = None
-        # type: string
+        # Type: string
 
         self.ifMatch = None
-        # type: string
+        # Type: string
 
         self.ifNoneExist = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -320,16 +320,16 @@ class Bundle_Response(fhirbase):
 
     def __init__(self, dict_values=None):
         self.status = None
-        # type: string
+        # Type: string
 
         self.location = None
-        # type: string
+        # Type: string
 
         self.etag = None
-        # type: string
+        # Type: string
 
         self.lastModified = None
-        # type: string
+        # Type: string
 
         self.outcome = None
         # reference to ResourceList

@@ -48,36 +48,36 @@ class Device(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Device'
-        # type: string
+        # Type: string
         # possible values: Device
 
         self.udi = None
         # reference to Device_Udi
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: active, inactive, entered-in-error, unknown
 
         self.type = None
         # reference to CodeableConcept
 
         self.lotNumber = None
-        # type: string
+        # Type: string
 
         self.manufacturer = None
-        # type: string
+        # Type: string
 
         self.manufactureDate = None
-        # type: string
+        # Type: string
 
         self.expirationDate = None
-        # type: string
+        # Type: string
 
         self.model = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.patient = None
         # reference to Reference: identifier
@@ -86,25 +86,25 @@ class Device(fhirbase):
         # reference to Reference: identifier
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactPoint
 
         self.location = None
         # reference to Reference: identifier
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.safety = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -214,25 +214,25 @@ class Device_Udi(fhirbase):
 
     def __init__(self, dict_values=None):
         self.deviceIdentifier = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.jurisdiction = None
-        # type: string
+        # Type: string
 
         self.carrierHRF = None
-        # type: string
+        # Type: string
 
         self.carrierAIDC = None
-        # type: string
+        # Type: string
 
         self.issuer = None
-        # type: string
+        # Type: string
 
         self.entryType = None
-        # type: string
+        # Type: string
         # possible values: barcode, rfid, manual, card, self-reported,
         # unknown
 

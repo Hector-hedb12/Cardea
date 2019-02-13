@@ -98,92 +98,92 @@ class StructureDefinition(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'StructureDefinition'
-        # type: string
+        # Type: string
         # possible values: StructureDefinition
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.copyright = None
-        # type: string
+        # Type: string
 
         self.keyword = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.fhirVersion = None
-        # type: string
+        # Type: string
 
         self.mapping = None
-        # type: array
+        # Type: array
         # reference to StructureDefinition_Mapping
 
         self.kind = None
-        # type: string
+        # Type: string
         # possible values: primitive-type, complex-type, resource,
         # logical
 
         self.abstract = None
-        # type: boolean
+        # Type: boolean
 
         self.contextType = None
-        # type: string
+        # Type: string
         # possible values: resource, datatype, extension
 
         self.context = None
-        # type: array
+        # Type: array
 
         self.contextInvariant = None
-        # type: array
+        # Type: array
 
         self.type = None
-        # type: string
+        # Type: string
 
         self.baseDefinition = None
-        # type: string
+        # Type: string
 
         self.derivation = None
-        # type: string
+        # Type: string
         # possible values: specialization, constraint
 
         self.snapshot = None
@@ -193,7 +193,7 @@ class StructureDefinition(fhirbase):
         # reference to StructureDefinition_Differential
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -295,16 +295,16 @@ class StructureDefinition_Mapping(fhirbase):
 
     def __init__(self, dict_values=None):
         self.identity = None
-        # type: string
+        # Type: string
 
         self.uri = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.comment = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -327,7 +327,7 @@ class StructureDefinition_Snapshot(fhirbase):
 
     def __init__(self, dict_values=None):
         self.element = None
-        # type: array
+        # Type: array
         # reference to ElementDefinition
 
         self.object_id = None
@@ -360,7 +360,7 @@ class StructureDefinition_Differential(fhirbase):
 
     def __init__(self, dict_values=None):
         self.element = None
-        # type: array
+        # Type: array
         # reference to ElementDefinition
 
         self.object_id = None

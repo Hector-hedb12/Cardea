@@ -41,7 +41,7 @@ class RiskAssessment(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'RiskAssessment'
-        # type: string
+        # Type: string
         # possible values: RiskAssessment
 
         self.basedOn = None
@@ -51,7 +51,7 @@ class RiskAssessment(fhirbase):
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.method = None
         # reference to CodeableConcept
@@ -66,7 +66,7 @@ class RiskAssessment(fhirbase):
         # reference to Reference: identifier
 
         self.occurrenceDateTime = None
-        # type: string
+        # Type: string
 
         self.occurrencePeriod = None
         # reference to Period
@@ -84,18 +84,18 @@ class RiskAssessment(fhirbase):
         # reference to Reference: identifier
 
         self.basis = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.prediction = None
-        # type: array
+        # Type: array
         # reference to RiskAssessment_Prediction
 
         self.mitigation = None
-        # type: string
+        # Type: string
 
         self.comment = None
-        # type: string
+        # Type: string
 
         self.identifier = None
         # reference to Identifier
@@ -212,7 +212,7 @@ class RiskAssessment_Prediction(fhirbase):
         # reference to CodeableConcept
 
         self.probabilityDecimal = None
-        # type: int
+        # Type: int
 
         self.probabilityRange = None
         # reference to Range
@@ -221,7 +221,7 @@ class RiskAssessment_Prediction(fhirbase):
         # reference to CodeableConcept
 
         self.relativeRisk = None
-        # type: int
+        # Type: int
 
         self.whenPeriod = None
         # reference to Period
@@ -230,7 +230,7 @@ class RiskAssessment_Prediction(fhirbase):
         # reference to Range
 
         self.rationale = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

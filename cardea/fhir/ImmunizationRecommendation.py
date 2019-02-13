@@ -19,18 +19,18 @@ class ImmunizationRecommendation(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ImmunizationRecommendation'
-        # type: string
+        # Type: string
         # possible values: ImmunizationRecommendation
 
         self.patient = None
         # reference to Reference: identifier
 
         self.recommendation = None
-        # type: array
+        # Type: array
         # reference to ImmunizationRecommendation_Recommendation
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -85,7 +85,7 @@ class ImmunizationRecommendation_Recommendation(fhirbase):
 
     def __init__(self, dict_values=None):
         self.date = None
-        # type: string
+        # Type: string
 
         self.vaccineCode = None
         # reference to CodeableConcept
@@ -94,24 +94,24 @@ class ImmunizationRecommendation_Recommendation(fhirbase):
         # reference to CodeableConcept
 
         self.doseNumber = None
-        # type: int
+        # Type: int
 
         self.forecastStatus = None
         # reference to CodeableConcept
 
         self.dateCriterion = None
-        # type: array
+        # Type: array
         # reference to ImmunizationRecommendation_DateCriterion
 
         self.protocol = None
         # reference to ImmunizationRecommendation_Protocol
 
         self.supportingImmunization = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.supportingPatientInformation = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.object_id = None
@@ -179,7 +179,7 @@ class ImmunizationRecommendation_DateCriterion(fhirbase):
         # reference to CodeableConcept
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -219,16 +219,16 @@ class ImmunizationRecommendation_Protocol(fhirbase):
 
     def __init__(self, dict_values=None):
         self.doseSequence = None
-        # type: int
+        # Type: int
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.authority = None
         # reference to Reference: identifier
 
         self.series = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

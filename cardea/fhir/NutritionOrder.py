@@ -49,11 +49,11 @@ class NutritionOrder(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'NutritionOrder'
-        # type: string
+        # Type: string
         # possible values: NutritionOrder
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: proposed, draft, planned, requested,
         # active, on-hold, completed, cancelled, entered-in-error
 
@@ -64,35 +64,35 @@ class NutritionOrder(fhirbase):
         # reference to Reference: identifier
 
         self.dateTime = None
-        # type: string
+        # Type: string
 
         self.orderer = None
         # reference to Reference: identifier
 
         self.allergyIntolerance = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.foodPreferenceModifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.excludeFoodModifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.oralDiet = None
         # reference to NutritionOrder_OralDiet
 
         self.supplement = None
-        # type: array
+        # Type: array
         # reference to NutritionOrder_Supplement
 
         self.enteralFormula = None
         # reference to NutritionOrder_EnteralFormula
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -192,27 +192,27 @@ class NutritionOrder_OralDiet(fhirbase):
 
     def __init__(self, dict_values=None):
         self.type = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.schedule = None
-        # type: array
+        # Type: array
         # reference to Timing
 
         self.nutrient = None
-        # type: array
+        # Type: array
         # reference to NutritionOrder_Nutrient
 
         self.texture = None
-        # type: array
+        # Type: array
         # reference to NutritionOrder_Texture
 
         self.fluidConsistencyType = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.instruction = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -358,17 +358,17 @@ class NutritionOrder_Supplement(fhirbase):
         # reference to CodeableConcept
 
         self.productName = None
-        # type: string
+        # Type: string
 
         self.schedule = None
-        # type: array
+        # Type: array
         # reference to Timing
 
         self.quantity = None
         # reference to Quantity
 
         self.instruction = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -438,13 +438,13 @@ class NutritionOrder_EnteralFormula(fhirbase):
         # reference to CodeableConcept
 
         self.baseFormulaProductName = None
-        # type: string
+        # Type: string
 
         self.additiveType = None
         # reference to CodeableConcept
 
         self.additiveProductName = None
-        # type: string
+        # Type: string
 
         self.caloricDensity = None
         # reference to Quantity
@@ -453,14 +453,14 @@ class NutritionOrder_EnteralFormula(fhirbase):
         # reference to CodeableConcept
 
         self.administration = None
-        # type: array
+        # Type: array
         # reference to NutritionOrder_Administration
 
         self.maxVolumeToDeliver = None
         # reference to Quantity
 
         self.administrationInstruction = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

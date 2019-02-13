@@ -25,14 +25,14 @@ class EnrollmentRequest(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'EnrollmentRequest'
-        # type: string
+        # Type: string
         # possible values: EnrollmentRequest
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.insurer = None
         # reference to Reference: identifier
@@ -50,7 +50,7 @@ class EnrollmentRequest(fhirbase):
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

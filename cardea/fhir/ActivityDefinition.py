@@ -125,85 +125,85 @@ class ActivityDefinition(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ActivityDefinition'
-        # type: string
+        # Type: string
         # possible values: ActivityDefinition
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.usage = None
-        # type: string
+        # Type: string
 
         self.approvalDate = None
-        # type: string
+        # Type: string
 
         self.lastReviewDate = None
-        # type: string
+        # Type: string
 
         self.effectivePeriod = None
         # reference to Period
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.topic = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.contributor = None
-        # type: array
+        # Type: array
         # reference to Contributor
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.copyright = None
-        # type: string
+        # Type: string
 
         self.relatedArtifact = None
-        # type: array
+        # Type: array
         # reference to RelatedArtifact
 
         self.library = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.kind = None
-        # type: string
+        # Type: string
 
         self.code = None
         # reference to CodeableConcept
@@ -212,7 +212,7 @@ class ActivityDefinition(fhirbase):
         # reference to Timing
 
         self.timingDateTime = None
-        # type: string
+        # Type: string
 
         self.timingPeriod = None
         # reference to Period
@@ -224,7 +224,7 @@ class ActivityDefinition(fhirbase):
         # reference to Reference: identifier
 
         self.participant = None
-        # type: array
+        # Type: array
         # reference to ActivityDefinition_Participant
 
         self.productReference = None
@@ -237,22 +237,22 @@ class ActivityDefinition(fhirbase):
         # reference to Quantity
 
         self.dosage = None
-        # type: array
+        # Type: array
         # reference to Dosage
 
         self.bodySite = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.transform = None
         # reference to Reference: identifier
 
         self.dynamicValue = None
-        # type: array
+        # Type: array
         # reference to ActivityDefinition_DynamicValue
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -399,7 +399,7 @@ class ActivityDefinition_Participant(fhirbase):
 
     def __init__(self, dict_values=None):
         self.type = None
-        # type: string
+        # Type: string
 
         self.role = None
         # reference to CodeableConcept
@@ -441,16 +441,16 @@ class ActivityDefinition_DynamicValue(fhirbase):
 
     def __init__(self, dict_values=None):
         self.description = None
-        # type: string
+        # Type: string
 
         self.path = None
-        # type: string
+        # Type: string
 
         self.language = None
-        # type: string
+        # Type: string
 
         self.expression = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

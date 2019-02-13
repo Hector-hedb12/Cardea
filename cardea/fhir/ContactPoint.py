@@ -22,18 +22,18 @@ class ContactPoint(fhirbase):
 
     def __init__(self, dict_values=None):
         self.system = None
-        # type: string
+        # Type: string
         # possible values: phone, fax, email, pager, url, sms, other
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.use = None
-        # type: string
+        # Type: string
         # possible values: home, work, temp, old, mobile
 
         self.rank = None
-        # type: int
+        # Type: int
 
         self.period = None
         # reference to Period

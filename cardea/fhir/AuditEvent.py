@@ -30,43 +30,43 @@ class AuditEvent(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'AuditEvent'
-        # type: string
+        # Type: string
         # possible values: AuditEvent
 
         self.type = None
         # reference to Coding
 
         self.subtype = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.action = None
-        # type: string
+        # Type: string
         # possible values: C, R, U, D, E
 
         self.recorded = None
-        # type: string
+        # Type: string
 
         self.outcome = None
-        # type: string
+        # Type: string
         # possible values: 0, 4, 8, 12
 
         self.outcomeDesc = None
-        # type: string
+        # Type: string
 
         self.purposeOfEvent = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.agent = None
-        # type: array
+        # Type: array
         # reference to AuditEvent_Agent
 
         self.source = None
         # reference to AuditEvent_Source: identifier
 
         self.entity = None
-        # type: array
+        # Type: array
         # reference to AuditEvent_Entity: identifier
 
         self.object_id = None
@@ -164,7 +164,7 @@ class AuditEvent_Agent(fhirbase):
 
     def __init__(self, dict_values=None):
         self.role = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reference = None
@@ -174,19 +174,19 @@ class AuditEvent_Agent(fhirbase):
         # reference to Identifier
 
         self.altId = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.requestor = None
-        # type: boolean
+        # Type: boolean
 
         self.location = None
         # reference to Reference: identifier
 
         self.policy = None
-        # type: array
+        # Type: array
 
         self.media = None
         # reference to Coding
@@ -195,7 +195,7 @@ class AuditEvent_Agent(fhirbase):
         # reference to AuditEvent_Network
 
         self.purposeOfUse = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.object_id = None
@@ -261,10 +261,10 @@ class AuditEvent_Network(fhirbase):
 
     def __init__(self, dict_values=None):
         self.address = None
-        # type: string
+        # Type: string
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: 1, 2, 3, 4, 5
 
         self.object_id = None
@@ -302,10 +302,10 @@ class AuditEvent_Source(fhirbase):
 
     def __init__(self, dict_values=None):
         self.site = None
-        # type: string
+        # Type: string
 
         self.type = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.identifier = None
@@ -368,20 +368,20 @@ class AuditEvent_Entity(fhirbase):
         # reference to Coding
 
         self.securityLabel = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.query = None
-        # type: string
+        # Type: string
 
         self.detail = None
-        # type: array
+        # Type: array
         # reference to AuditEvent_Detail
 
         self.identifier = None
@@ -445,10 +445,10 @@ class AuditEvent_Detail(fhirbase):
 
     def __init__(self, dict_values=None):
         self.type = None
-        # type: string
+        # Type: string
 
         self.value = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

@@ -41,23 +41,23 @@ class Dosage(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.text = None
-        # type: string
+        # Type: string
 
         self.additionalInstruction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.patientInstruction = None
-        # type: string
+        # Type: string
 
         self.timing = None
         # reference to Timing
 
         self.asNeededBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.asNeededCodeableConcept = None
         # reference to CodeableConcept

@@ -16,11 +16,11 @@ class Narrative(fhirbase):
 
     def __init__(self, dict_values=None):
         self.status = None
-        # type: string
+        # Type: string
         # possible values: generated, extensions, additional, empty
 
         self.div = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

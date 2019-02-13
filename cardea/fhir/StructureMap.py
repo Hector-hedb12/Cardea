@@ -69,68 +69,68 @@ class StructureMap(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'StructureMap'
-        # type: string
+        # Type: string
         # possible values: StructureMap
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.copyright = None
-        # type: string
+        # Type: string
 
         self.structure = None
-        # type: array
+        # Type: array
         # reference to StructureMap_Structure
 
         self._import = None
-        # type: array
+        # Type: array
 
         self.group = None
-        # type: array
+        # Type: array
         # reference to StructureMap_Group
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -198,17 +198,17 @@ class StructureMap_Structure(fhirbase):
 
     def __init__(self, dict_values=None):
         self.url = None
-        # type: string
+        # Type: string
 
         self.mode = None
-        # type: string
+        # Type: string
         # possible values: source, queried, target, produced
 
         self.alias = None
-        # type: string
+        # Type: string
 
         self.documentation = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -249,24 +249,24 @@ class StructureMap_Group(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.extends = None
-        # type: string
+        # Type: string
 
         self.typeMode = None
-        # type: string
+        # Type: string
         # possible values: none, types, type-and-types
 
         self.documentation = None
-        # type: string
+        # Type: string
 
         self.input = None
-        # type: array
+        # Type: array
         # reference to StructureMap_Input
 
         self.rule = None
-        # type: array
+        # Type: array
         # reference to StructureMap_Rule
 
         self.object_id = None
@@ -316,17 +316,17 @@ class StructureMap_Input(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.type = None
-        # type: string
+        # Type: string
 
         self.mode = None
-        # type: string
+        # Type: string
         # possible values: source, target
 
         self.documentation = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -363,26 +363,26 @@ class StructureMap_Rule(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.source = None
-        # type: array
+        # Type: array
         # reference to StructureMap_Source
 
         self.target = None
-        # type: array
+        # Type: array
         # reference to StructureMap_Target
 
         self.rule = None
-        # type: array
+        # Type: array
         # reference to StructureMap_Rule
 
         self.dependent = None
-        # type: array
+        # Type: array
         # reference to StructureMap_Dependent
 
         self.documentation = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -549,67 +549,67 @@ class StructureMap_Source(fhirbase):
 
     def __init__(self, dict_values=None):
         self.context = None
-        # type: string
+        # Type: string
 
         self.min = None
-        # type: int
+        # Type: int
 
         self.max = None
-        # type: string
+        # Type: string
 
         self.type = None
-        # type: string
+        # Type: string
 
         self.defaultValueBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.defaultValueInteger = None
-        # type: int
+        # Type: int
 
         self.defaultValueDecimal = None
-        # type: int
+        # Type: int
 
         self.defaultValueBase64Binary = None
-        # type: string
+        # Type: string
 
         self.defaultValueInstant = None
-        # type: string
+        # Type: string
 
         self.defaultValueString = None
-        # type: string
+        # Type: string
 
         self.defaultValueUri = None
-        # type: string
+        # Type: string
 
         self.defaultValueDate = None
-        # type: string
+        # Type: string
 
         self.defaultValueDateTime = None
-        # type: string
+        # Type: string
 
         self.defaultValueTime = None
-        # type: string
+        # Type: string
 
         self.defaultValueCode = None
-        # type: string
+        # Type: string
 
         self.defaultValueOid = None
-        # type: string
+        # Type: string
 
         self.defaultValueUuid = None
-        # type: string
+        # Type: string
 
         self.defaultValueId = None
-        # type: string
+        # Type: string
 
         self.defaultValueUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.defaultValuePositiveInt = None
-        # type: int
+        # Type: int
 
         self.defaultValueMarkdown = None
-        # type: string
+        # Type: string
 
         self.defaultValueElement = None
         # reference to Element: id
@@ -720,20 +720,20 @@ class StructureMap_Source(fhirbase):
         # reference to TriggerDefinition
 
         self.element = None
-        # type: string
+        # Type: string
 
         self.listMode = None
-        # type: string
+        # Type: string
         # possible values: first, not_first, last, not_last, only_one
 
         self.variable = None
-        # type: string
+        # Type: string
 
         self.condition = None
-        # type: string
+        # Type: string
 
         self.check = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -957,33 +957,33 @@ class StructureMap_Target(fhirbase):
 
     def __init__(self, dict_values=None):
         self.context = None
-        # type: string
+        # Type: string
 
         self.contextType = None
-        # type: string
+        # Type: string
         # possible values: type, variable
 
         self.element = None
-        # type: string
+        # Type: string
 
         self.variable = None
-        # type: string
+        # Type: string
 
         self.listMode = None
-        # type: array
+        # Type: array
         # possible values: first, share, last, collate
 
         self.listRuleId = None
-        # type: string
+        # Type: string
 
         self.transform = None
-        # type: string
+        # Type: string
         # possible values: create, copy, truncate, escape, cast,
         # append, translate, reference, dateOp, uuid, pointer, evaluate, cc, c,
         # qty, id, cp
 
         self.parameter = None
-        # type: array
+        # Type: array
         # reference to StructureMap_Parameter
 
         self.object_id = None
@@ -1070,19 +1070,19 @@ class StructureMap_Parameter(fhirbase):
 
     def __init__(self, dict_values=None):
         self.valueId = None
-        # type: string
+        # Type: string
 
         self.valueString = None
-        # type: string
+        # Type: string
 
         self.valueBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.valueInteger = None
-        # type: int
+        # Type: int
 
         self.valueDecimal = None
-        # type: int
+        # Type: int
 
         self.object_id = None
         # unique identifier for object class
@@ -1105,10 +1105,10 @@ class StructureMap_Dependent(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.variable = None
-        # type: array
+        # Type: array
 
         self.object_id = None
         # unique identifier for object class

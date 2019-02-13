@@ -55,59 +55,59 @@ class CompartmentDefinition(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'CompartmentDefinition'
-        # type: string
+        # Type: string
         # possible values: CompartmentDefinition
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.code = None
-        # type: string
+        # Type: string
         # possible values: Patient, Encounter, RelatedPerson,
         # Practitioner, Device
 
         self.search = None
-        # type: boolean
+        # Type: boolean
 
         self.resource = None
-        # type: array
+        # Type: array
         # reference to CompartmentDefinition_Resource
 
         self.object_id = None
@@ -176,13 +176,13 @@ class CompartmentDefinition_Resource(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: string
+        # Type: string
 
         self.param = None
-        # type: array
+        # Type: array
 
         self.documentation = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

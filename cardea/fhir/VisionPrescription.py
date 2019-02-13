@@ -31,11 +31,11 @@ class VisionPrescription(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'VisionPrescription'
-        # type: string
+        # Type: string
         # possible values: VisionPrescription
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.patient = None
         # reference to Reference: identifier
@@ -44,7 +44,7 @@ class VisionPrescription(fhirbase):
         # reference to Reference: identifier
 
         self.dateWritten = None
-        # type: string
+        # Type: string
 
         self.prescriber = None
         # reference to Reference: identifier
@@ -56,11 +56,11 @@ class VisionPrescription(fhirbase):
         # reference to Reference: identifier
 
         self.dispense = None
-        # type: array
+        # Type: array
         # reference to VisionPrescription_Dispense
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -142,48 +142,48 @@ class VisionPrescription_Dispense(fhirbase):
         # reference to CodeableConcept
 
         self.eye = None
-        # type: string
+        # Type: string
         # possible values: right, left
 
         self.sphere = None
-        # type: int
+        # Type: int
 
         self.cylinder = None
-        # type: int
+        # Type: int
 
         self.axis = None
-        # type: int
+        # Type: int
 
         self.prism = None
-        # type: int
+        # Type: int
 
         self.base = None
-        # type: string
+        # Type: string
         # possible values: up, down, in, out
 
         self.add = None
-        # type: int
+        # Type: int
 
         self.power = None
-        # type: int
+        # Type: int
 
         self.backCurve = None
-        # type: int
+        # Type: int
 
         self.diameter = None
-        # type: int
+        # Type: int
 
         self.duration = None
         # reference to Quantity
 
         self.color = None
-        # type: string
+        # Type: string
 
         self.brand = None
-        # type: string
+        # Type: string
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.object_id = None

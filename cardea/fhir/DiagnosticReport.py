@@ -66,15 +66,15 @@ class DiagnosticReport(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'DiagnosticReport'
-        # type: string
+        # Type: string
         # possible values: DiagnosticReport
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: registered, partial, preliminary, final,
         # amended, corrected, appended, cancelled, entered-in-error, unknown
 
@@ -91,47 +91,47 @@ class DiagnosticReport(fhirbase):
         # reference to Reference: identifier
 
         self.effectiveDateTime = None
-        # type: string
+        # Type: string
 
         self.effectivePeriod = None
         # reference to Period
 
         self.issued = None
-        # type: string
+        # Type: string
 
         self.performer = None
-        # type: array
+        # Type: array
         # reference to DiagnosticReport_Performer
 
         self.specimen = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.result = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.imagingStudy = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.image = None
-        # type: array
+        # Type: array
         # reference to DiagnosticReport_Image
 
         self.conclusion = None
-        # type: string
+        # Type: string
 
         self.codedDiagnosis = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.presentedForm = None
-        # type: array
+        # Type: array
         # reference to Attachment
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -291,7 +291,7 @@ class DiagnosticReport_Image(fhirbase):
 
     def __init__(self, dict_values=None):
         self.comment = None
-        # type: string
+        # Type: string
 
         self.link = None
         # reference to Reference: identifier

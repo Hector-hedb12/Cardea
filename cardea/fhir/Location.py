@@ -48,34 +48,34 @@ class Location(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Location'
-        # type: string
+        # Type: string
         # possible values: Location
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: active, suspended, inactive
 
         self.operationalStatus = None
         # reference to Coding
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.alias = None
-        # type: array
+        # Type: array
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.mode = None
-        # type: string
+        # Type: string
         # possible values: instance, kind
 
         self.type = None
         # reference to CodeableConcept
 
         self.telecom = None
-        # type: array
+        # Type: array
         # reference to ContactPoint
 
         self.address = None
@@ -94,11 +94,11 @@ class Location(fhirbase):
         # reference to Reference: identifier
 
         self.endpoint = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -196,13 +196,13 @@ class Location_Position(fhirbase):
 
     def __init__(self, dict_values=None):
         self.longitude = None
-        # type: int
+        # Type: int
 
         self.latitude = None
-        # type: int
+        # Type: int
 
         self.altitude = None
-        # type: int
+        # Type: int
 
         self.object_id = None
         # unique identifier for object class

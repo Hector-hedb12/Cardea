@@ -33,39 +33,39 @@ class Group(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Group'
-        # type: string
+        # Type: string
         # possible values: Group
 
         self.active = None
-        # type: boolean
+        # Type: boolean
 
         self.type = None
-        # type: string
+        # Type: string
         # possible values: person, animal, practitioner, device,
         # medication, substance
 
         self.actual = None
-        # type: boolean
+        # Type: boolean
 
         self.code = None
         # reference to CodeableConcept
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.quantity = None
-        # type: int
+        # Type: int
 
         self.characteristic = None
-        # type: array
+        # Type: array
         # reference to Group_Characteristic
 
         self.member = None
-        # type: array
+        # Type: array
         # reference to Group_Member
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -140,7 +140,7 @@ class Group_Characteristic(fhirbase):
         # reference to CodeableConcept
 
         self.valueBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.valueQuantity = None
         # reference to Quantity
@@ -149,7 +149,7 @@ class Group_Characteristic(fhirbase):
         # reference to Range
 
         self.exclude = None
-        # type: boolean
+        # Type: boolean
 
         self.period = None
         # reference to Period
@@ -215,7 +215,7 @@ class Group_Member(fhirbase):
         # reference to Period
 
         self.inactive = None
-        # type: boolean
+        # Type: boolean
 
         self.object_id = None
         # unique identifier for object class

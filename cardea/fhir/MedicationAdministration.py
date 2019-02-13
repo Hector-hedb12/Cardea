@@ -76,19 +76,19 @@ class MedicationAdministration(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'MedicationAdministration'
-        # type: string
+        # Type: string
         # possible values: MedicationAdministration
 
         self.definition = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.partOf = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: in-progress, on-hold, completed,
         # entered-in-error, stopped, unknown
 
@@ -108,54 +108,54 @@ class MedicationAdministration(fhirbase):
         # reference to Reference: identifier
 
         self.supportingInformation = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.effectiveDateTime = None
-        # type: string
+        # Type: string
 
         self.effectivePeriod = None
         # reference to Period
 
         self.performer = None
-        # type: array
+        # Type: array
         # reference to MedicationAdministration_Performer
 
         self.notGiven = None
-        # type: boolean
+        # Type: boolean
 
         self.reasonNotGiven = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonReference = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.prescription = None
         # reference to Reference: identifier
 
         self.device = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.dosage = None
         # reference to MedicationAdministration_Dosage
 
         self.eventHistory = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -359,7 +359,7 @@ class MedicationAdministration_Dosage(fhirbase):
 
     def __init__(self, dict_values=None):
         self.text = None
-        # type: string
+        # Type: string
 
         self.site = None
         # reference to CodeableConcept

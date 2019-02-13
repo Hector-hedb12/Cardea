@@ -54,11 +54,11 @@ class Coverage(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Coverage'
-        # type: string
+        # Type: string
         # possible values: Coverage
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.type = None
         # reference to CodeableConcept
@@ -70,7 +70,7 @@ class Coverage(fhirbase):
         # reference to Reference: identifier
 
         self.subscriberId = None
-        # type: string
+        # Type: string
 
         self.beneficiary = None
         # reference to Reference: identifier
@@ -82,30 +82,30 @@ class Coverage(fhirbase):
         # reference to Period
 
         self.payor = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.grouping = None
         # reference to Coverage_Grouping
 
         self.dependent = None
-        # type: string
+        # Type: string
 
         self.sequence = None
-        # type: string
+        # Type: string
 
         self.order = None
-        # type: int
+        # Type: int
 
         self.network = None
-        # type: string
+        # Type: string
 
         self.contract = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -204,40 +204,40 @@ class Coverage_Grouping(fhirbase):
 
     def __init__(self, dict_values=None):
         self.group = None
-        # type: string
+        # Type: string
 
         self.groupDisplay = None
-        # type: string
+        # Type: string
 
         self.subGroup = None
-        # type: string
+        # Type: string
 
         self.subGroupDisplay = None
-        # type: string
+        # Type: string
 
         self.plan = None
-        # type: string
+        # Type: string
 
         self.planDisplay = None
-        # type: string
+        # Type: string
 
         self.subPlan = None
-        # type: string
+        # Type: string
 
         self.subPlanDisplay = None
-        # type: string
+        # Type: string
 
         self._class = None
-        # type: string
+        # Type: string
 
         self.classDisplay = None
-        # type: string
+        # Type: string
 
         self.subClass = None
-        # type: string
+        # Type: string
 
         self.subClassDisplay = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

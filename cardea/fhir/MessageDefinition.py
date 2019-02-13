@@ -78,81 +78,81 @@ class MessageDefinition(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'MessageDefinition'
-        # type: string
+        # Type: string
         # possible values: MessageDefinition
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.copyright = None
-        # type: string
+        # Type: string
 
         self.base = None
         # reference to Reference: identifier
 
         self.parent = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.replaces = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.event = None
         # reference to Coding
 
         self.category = None
-        # type: string
+        # Type: string
 
         self.focus = None
-        # type: array
+        # Type: array
         # reference to MessageDefinition_Focus
 
         self.responseRequired = None
-        # type: boolean
+        # Type: boolean
 
         self.allowedResponse = None
-        # type: array
+        # Type: array
         # reference to MessageDefinition_AllowedResponse
 
         self.identifier = None
@@ -248,16 +248,16 @@ class MessageDefinition_Focus(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: string
+        # Type: string
 
         self.profile = None
         # reference to Reference: identifier
 
         self.min = None
-        # type: int
+        # Type: int
 
         self.max = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -296,7 +296,7 @@ class MessageDefinition_AllowedResponse(fhirbase):
         # reference to Reference: identifier
 
         self.situation = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

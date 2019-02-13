@@ -17,10 +17,10 @@ class Period(fhirbase):
 
     def __init__(self, dict_values=None):
         self.start = None
-        # type: string
+        # Type: string
 
         self.end = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

@@ -886,106 +886,106 @@ class ElementDefinition(fhirbase):
 
     def __init__(self, dict_values=None):
         self.path = None
-        # type: string
+        # Type: string
 
         self.representation = None
-        # type: array
+        # Type: array
         # possible values: xmlAttr, xmlText, typeAttr, cdaText, xhtml
 
         self.sliceName = None
-        # type: string
+        # Type: string
 
         self.label = None
-        # type: string
+        # Type: string
 
         self.code = None
-        # type: array
+        # Type: array
         # reference to Coding
 
         self.slicing = None
         # reference to ElementDefinition_Slicing
 
         self.short = None
-        # type: string
+        # Type: string
 
         self.definition = None
-        # type: string
+        # Type: string
 
         self.comment = None
-        # type: string
+        # Type: string
 
         self.requirements = None
-        # type: string
+        # Type: string
 
         self.alias = None
-        # type: array
+        # Type: array
 
         self.min = None
-        # type: int
+        # Type: int
 
         self.max = None
-        # type: string
+        # Type: string
 
         self.base = None
         # reference to ElementDefinition_Base
 
         self.contentReference = None
-        # type: string
+        # Type: string
 
         self.type = None
-        # type: array
+        # Type: array
         # reference to ElementDefinition_Type
 
         self.defaultValueBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.defaultValueInteger = None
-        # type: int
+        # Type: int
 
         self.defaultValueDecimal = None
-        # type: int
+        # Type: int
 
         self.defaultValueBase64Binary = None
-        # type: string
+        # Type: string
 
         self.defaultValueInstant = None
-        # type: string
+        # Type: string
 
         self.defaultValueString = None
-        # type: string
+        # Type: string
 
         self.defaultValueUri = None
-        # type: string
+        # Type: string
 
         self.defaultValueDate = None
-        # type: string
+        # Type: string
 
         self.defaultValueDateTime = None
-        # type: string
+        # Type: string
 
         self.defaultValueTime = None
-        # type: string
+        # Type: string
 
         self.defaultValueCode = None
-        # type: string
+        # Type: string
 
         self.defaultValueOid = None
-        # type: string
+        # Type: string
 
         self.defaultValueUuid = None
-        # type: string
+        # Type: string
 
         self.defaultValueId = None
-        # type: string
+        # Type: string
 
         self.defaultValueUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.defaultValuePositiveInt = None
-        # type: int
+        # Type: int
 
         self.defaultValueMarkdown = None
-        # type: string
+        # Type: string
 
         self.defaultValueElement = None
         # reference to Element: id
@@ -1096,61 +1096,61 @@ class ElementDefinition(fhirbase):
         # reference to TriggerDefinition
 
         self.meaningWhenMissing = None
-        # type: string
+        # Type: string
 
         self.orderMeaning = None
-        # type: string
+        # Type: string
 
         self.fixedBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.fixedInteger = None
-        # type: int
+        # Type: int
 
         self.fixedDecimal = None
-        # type: int
+        # Type: int
 
         self.fixedBase64Binary = None
-        # type: string
+        # Type: string
 
         self.fixedInstant = None
-        # type: string
+        # Type: string
 
         self.fixedString = None
-        # type: string
+        # Type: string
 
         self.fixedUri = None
-        # type: string
+        # Type: string
 
         self.fixedDate = None
-        # type: string
+        # Type: string
 
         self.fixedDateTime = None
-        # type: string
+        # Type: string
 
         self.fixedTime = None
-        # type: string
+        # Type: string
 
         self.fixedCode = None
-        # type: string
+        # Type: string
 
         self.fixedOid = None
-        # type: string
+        # Type: string
 
         self.fixedUuid = None
-        # type: string
+        # Type: string
 
         self.fixedId = None
-        # type: string
+        # Type: string
 
         self.fixedUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.fixedPositiveInt = None
-        # type: int
+        # Type: int
 
         self.fixedMarkdown = None
-        # type: string
+        # Type: string
 
         self.fixedElement = None
         # reference to Element: id
@@ -1261,55 +1261,55 @@ class ElementDefinition(fhirbase):
         # reference to TriggerDefinition
 
         self.patternBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.patternInteger = None
-        # type: int
+        # Type: int
 
         self.patternDecimal = None
-        # type: int
+        # Type: int
 
         self.patternBase64Binary = None
-        # type: string
+        # Type: string
 
         self.patternInstant = None
-        # type: string
+        # Type: string
 
         self.patternString = None
-        # type: string
+        # Type: string
 
         self.patternUri = None
-        # type: string
+        # Type: string
 
         self.patternDate = None
-        # type: string
+        # Type: string
 
         self.patternDateTime = None
-        # type: string
+        # Type: string
 
         self.patternTime = None
-        # type: string
+        # Type: string
 
         self.patternCode = None
-        # type: string
+        # Type: string
 
         self.patternOid = None
-        # type: string
+        # Type: string
 
         self.patternUuid = None
-        # type: string
+        # Type: string
 
         self.patternId = None
-        # type: string
+        # Type: string
 
         self.patternUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.patternPositiveInt = None
-        # type: int
+        # Type: int
 
         self.patternMarkdown = None
-        # type: string
+        # Type: string
 
         self.patternElement = None
         # reference to Element: id
@@ -1420,87 +1420,87 @@ class ElementDefinition(fhirbase):
         # reference to TriggerDefinition
 
         self.example = None
-        # type: array
+        # Type: array
         # reference to ElementDefinition_Example
 
         self.minValueDate = None
-        # type: string
+        # Type: string
 
         self.minValueDateTime = None
-        # type: string
+        # Type: string
 
         self.minValueInstant = None
-        # type: string
+        # Type: string
 
         self.minValueTime = None
-        # type: string
+        # Type: string
 
         self.minValueDecimal = None
-        # type: int
+        # Type: int
 
         self.minValueInteger = None
-        # type: int
+        # Type: int
 
         self.minValuePositiveInt = None
-        # type: int
+        # Type: int
 
         self.minValueUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.minValueQuantity = None
         # reference to Quantity
 
         self.maxValueDate = None
-        # type: string
+        # Type: string
 
         self.maxValueDateTime = None
-        # type: string
+        # Type: string
 
         self.maxValueInstant = None
-        # type: string
+        # Type: string
 
         self.maxValueTime = None
-        # type: string
+        # Type: string
 
         self.maxValueDecimal = None
-        # type: int
+        # Type: int
 
         self.maxValueInteger = None
-        # type: int
+        # Type: int
 
         self.maxValuePositiveInt = None
-        # type: int
+        # Type: int
 
         self.maxValueUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.maxValueQuantity = None
         # reference to Quantity
 
         self.maxLength = None
-        # type: int
+        # Type: int
 
         self.condition = None
-        # type: array
+        # Type: array
 
         self.constraint = None
-        # type: array
+        # Type: array
         # reference to ElementDefinition_Constraint
 
         self.mustSupport = None
-        # type: boolean
+        # Type: boolean
 
         self.isModifier = None
-        # type: boolean
+        # Type: boolean
 
         self.isSummary = None
-        # type: boolean
+        # Type: boolean
 
         self.binding = None
         # reference to ElementDefinition_Binding
 
         self.mapping = None
-        # type: array
+        # Type: array
         # reference to ElementDefinition_Mapping
 
         self.object_id = None
@@ -2141,17 +2141,17 @@ class ElementDefinition_Slicing(fhirbase):
 
     def __init__(self, dict_values=None):
         self.discriminator = None
-        # type: array
+        # Type: array
         # reference to ElementDefinition_Discriminator
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.ordered = None
-        # type: boolean
+        # Type: boolean
 
         self.rules = None
-        # type: string
+        # Type: string
         # possible values: closed, open, openAtEnd
 
         self.object_id = None
@@ -2196,11 +2196,11 @@ class ElementDefinition_Discriminator(fhirbase):
 
     def __init__(self, dict_values=None):
         self.type = None
-        # type: string
+        # Type: string
         # possible values: value, exists, pattern, type, profile
 
         self.path = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -2237,13 +2237,13 @@ class ElementDefinition_Base(fhirbase):
 
     def __init__(self, dict_values=None):
         self.path = None
-        # type: string
+        # Type: string
 
         self.min = None
-        # type: int
+        # Type: int
 
         self.max = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -2288,20 +2288,20 @@ class ElementDefinition_Type(fhirbase):
 
     def __init__(self, dict_values=None):
         self.code = None
-        # type: string
+        # Type: string
 
         self.profile = None
-        # type: string
+        # Type: string
 
         self.targetProfile = None
-        # type: string
+        # Type: string
 
         self.aggregation = None
-        # type: array
+        # Type: array
         # possible values: contained, referenced, bundled
 
         self.versioning = None
-        # type: string
+        # Type: string
         # possible values: either, independent, specific
 
         self.object_id = None
@@ -2448,58 +2448,58 @@ class ElementDefinition_Example(fhirbase):
 
     def __init__(self, dict_values=None):
         self.label = None
-        # type: string
+        # Type: string
 
         self.valueBoolean = None
-        # type: boolean
+        # Type: boolean
 
         self.valueInteger = None
-        # type: int
+        # Type: int
 
         self.valueDecimal = None
-        # type: int
+        # Type: int
 
         self.valueBase64Binary = None
-        # type: string
+        # Type: string
 
         self.valueInstant = None
-        # type: string
+        # Type: string
 
         self.valueString = None
-        # type: string
+        # Type: string
 
         self.valueUri = None
-        # type: string
+        # Type: string
 
         self.valueDate = None
-        # type: string
+        # Type: string
 
         self.valueDateTime = None
-        # type: string
+        # Type: string
 
         self.valueTime = None
-        # type: string
+        # Type: string
 
         self.valueCode = None
-        # type: string
+        # Type: string
 
         self.valueOid = None
-        # type: string
+        # Type: string
 
         self.valueUuid = None
-        # type: string
+        # Type: string
 
         self.valueId = None
-        # type: string
+        # Type: string
 
         self.valueUnsignedInt = None
-        # type: int
+        # Type: int
 
         self.valuePositiveInt = None
-        # type: int
+        # Type: int
 
         self.valueMarkdown = None
-        # type: string
+        # Type: string
 
         self.valueElement = None
         # reference to Element: id
@@ -2821,26 +2821,26 @@ class ElementDefinition_Constraint(fhirbase):
 
     def __init__(self, dict_values=None):
         self.key = None
-        # type: string
+        # Type: string
 
         self.requirements = None
-        # type: string
+        # Type: string
 
         self.severity = None
-        # type: string
+        # Type: string
         # possible values: error, warning
 
         self.human = None
-        # type: string
+        # Type: string
 
         self.expression = None
-        # type: string
+        # Type: string
 
         self.xpath = None
-        # type: string
+        # Type: string
 
         self.source = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class
@@ -2890,14 +2890,14 @@ class ElementDefinition_Binding(fhirbase):
 
     def __init__(self, dict_values=None):
         self.strength = None
-        # type: string
+        # Type: string
         # possible values: required, extensible, preferred, example
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.valueSetUri = None
-        # type: string
+        # Type: string
 
         self.valueSetReference = None
         # reference to Reference: identifier
@@ -2947,16 +2947,16 @@ class ElementDefinition_Mapping(fhirbase):
 
     def __init__(self, dict_values=None):
         self.identity = None
-        # type: string
+        # Type: string
 
         self.language = None
-        # type: string
+        # Type: string
 
         self.map = None
-        # type: string
+        # Type: string
 
         self.comment = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

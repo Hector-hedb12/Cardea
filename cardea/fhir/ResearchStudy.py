@@ -57,54 +57,54 @@ class ResearchStudy(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ResearchStudy'
-        # type: string
+        # Type: string
         # possible values: ResearchStudy
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.protocol = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.partOf = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, in-progress, suspended, stopped,
         # completed, entered-in-error
 
         self.category = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.focus = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.relatedArtifact = None
-        # type: array
+        # Type: array
         # reference to RelatedArtifact
 
         self.keyword = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.enrollment = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.period = None
@@ -117,22 +117,22 @@ class ResearchStudy(fhirbase):
         # reference to Reference: identifier
 
         self.site = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.reasonStopped = None
         # reference to CodeableConcept
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.arm = None
-        # type: array
+        # Type: array
         # reference to ResearchStudy_Arm
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -262,13 +262,13 @@ class ResearchStudy_Arm(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.code = None
         # reference to CodeableConcept
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

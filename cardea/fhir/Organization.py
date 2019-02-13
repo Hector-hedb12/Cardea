@@ -29,43 +29,43 @@ class Organization(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Organization'
-        # type: string
+        # Type: string
         # possible values: Organization
 
         self.active = None
-        # type: boolean
+        # Type: boolean
 
         self.type = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.alias = None
-        # type: array
+        # Type: array
 
         self.telecom = None
-        # type: array
+        # Type: array
         # reference to ContactPoint
 
         self.address = None
-        # type: array
+        # Type: array
         # reference to Address
 
         self.partOf = None
         # reference to Reference: identifier
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to Organization_Contact
 
         self.endpoint = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -137,7 +137,7 @@ class Organization_Contact(fhirbase):
         # reference to HumanName
 
         self.telecom = None
-        # type: array
+        # Type: array
         # reference to ContactPoint
 
         self.address = None

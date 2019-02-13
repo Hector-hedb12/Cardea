@@ -56,79 +56,79 @@ class Communication(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Communication'
-        # type: string
+        # Type: string
         # possible values: Communication
 
         self.definition = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.partOf = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.notDone = None
-        # type: boolean
+        # Type: boolean
 
         self.notDoneReason = None
         # reference to CodeableConcept
 
         self.category = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.medium = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.subject = None
         # reference to Reference: identifier
 
         self.recipient = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.topic = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.context = None
         # reference to Reference: identifier
 
         self.sent = None
-        # type: string
+        # Type: string
 
         self.received = None
-        # type: string
+        # Type: string
 
         self.sender = None
         # reference to Reference: identifier
 
         self.reasonCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonReference = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.payload = None
-        # type: array
+        # Type: array
         # reference to Communication_Payload
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -239,7 +239,7 @@ class Communication_Payload(fhirbase):
 
     def __init__(self, dict_values=None):
         self.contentString = None
-        # type: string
+        # Type: string
 
         self.contentAttachment = None
         # reference to Attachment

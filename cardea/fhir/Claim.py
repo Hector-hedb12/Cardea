@@ -78,21 +78,21 @@ class Claim(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Claim'
-        # type: string
+        # Type: string
         # possible values: Claim
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.type = None
         # reference to CodeableConcept
 
         self.subType = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.use = None
-        # type: string
+        # Type: string
         # possible values: complete, proposed, exploratory, other
 
         self.patient = None
@@ -102,7 +102,7 @@ class Claim(fhirbase):
         # reference to Period
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.enterer = None
         # reference to Reference: identifier
@@ -123,7 +123,7 @@ class Claim(fhirbase):
         # reference to CodeableConcept
 
         self.related = None
-        # type: array
+        # Type: array
         # reference to Claim_Related
 
         self.prescription = None
@@ -142,23 +142,23 @@ class Claim(fhirbase):
         # reference to Reference: identifier
 
         self.careTeam = None
-        # type: array
+        # Type: array
         # reference to Claim_CareTeam
 
         self.information = None
-        # type: array
+        # Type: array
         # reference to Claim_Information
 
         self.diagnosis = None
-        # type: array
+        # Type: array
         # reference to Claim_Diagnosis
 
         self.procedure = None
-        # type: array
+        # Type: array
         # reference to Claim_Procedure
 
         self.insurance = None
-        # type: array
+        # Type: array
         # reference to Claim_Insurance
 
         self.accident = None
@@ -171,14 +171,14 @@ class Claim(fhirbase):
         # reference to Period
 
         self.item = None
-        # type: array
+        # Type: array
         # reference to Claim_Item
 
         self.total = None
         # reference to Money
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -458,13 +458,13 @@ class Claim_CareTeam(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.provider = None
         # reference to Reference: identifier
 
         self.responsible = None
-        # type: boolean
+        # Type: boolean
 
         self.role = None
         # reference to CodeableConcept
@@ -536,7 +536,7 @@ class Claim_Information(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.category = None
         # reference to CodeableConcept
@@ -545,13 +545,13 @@ class Claim_Information(fhirbase):
         # reference to CodeableConcept
 
         self.timingDate = None
-        # type: string
+        # Type: string
 
         self.timingPeriod = None
         # reference to Period
 
         self.valueString = None
-        # type: string
+        # Type: string
 
         self.valueQuantity = None
         # reference to Quantity
@@ -631,7 +631,7 @@ class Claim_Diagnosis(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.diagnosisCodeableConcept = None
         # reference to CodeableConcept
@@ -640,7 +640,7 @@ class Claim_Diagnosis(fhirbase):
         # reference to Reference: identifier
 
         self.type = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.packageCode = None
@@ -695,10 +695,10 @@ class Claim_Procedure(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.procedureCodeableConcept = None
         # reference to CodeableConcept
@@ -752,19 +752,19 @@ class Claim_Insurance(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.focal = None
-        # type: boolean
+        # Type: boolean
 
         self.coverage = None
         # reference to Reference: identifier
 
         self.businessArrangement = None
-        # type: string
+        # Type: string
 
         self.preAuthRef = None
-        # type: array
+        # Type: array
 
         self.claimResponse = None
         # reference to Reference: identifier
@@ -807,7 +807,7 @@ class Claim_Accident(fhirbase):
 
     def __init__(self, dict_values=None):
         self.date = None
-        # type: string
+        # Type: string
 
         self.type = None
         # reference to CodeableConcept
@@ -905,19 +905,19 @@ class Claim_Item(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.careTeamLinkId = None
-        # type: array
+        # Type: array
 
         self.diagnosisLinkId = None
-        # type: array
+        # Type: array
 
         self.procedureLinkId = None
-        # type: array
+        # Type: array
 
         self.informationLinkId = None
-        # type: array
+        # Type: array
 
         self.revenue = None
         # reference to CodeableConcept
@@ -929,15 +929,15 @@ class Claim_Item(fhirbase):
         # reference to CodeableConcept
 
         self.modifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.programCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.servicedDate = None
-        # type: string
+        # Type: string
 
         self.servicedPeriod = None
         # reference to Period
@@ -958,28 +958,28 @@ class Claim_Item(fhirbase):
         # reference to Money
 
         self.factor = None
-        # type: int
+        # Type: int
 
         self.net = None
         # reference to Money
 
         self.udi = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.bodySite = None
         # reference to CodeableConcept
 
         self.subSite = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.encounter = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.detail = None
-        # type: array
+        # Type: array
         # reference to Claim_Detail
 
         self.object_id = None
@@ -1120,7 +1120,7 @@ class Claim_Detail(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.revenue = None
         # reference to CodeableConcept
@@ -1132,11 +1132,11 @@ class Claim_Detail(fhirbase):
         # reference to CodeableConcept
 
         self.modifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.programCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.quantity = None
@@ -1146,17 +1146,17 @@ class Claim_Detail(fhirbase):
         # reference to Money
 
         self.factor = None
-        # type: int
+        # Type: int
 
         self.net = None
         # reference to Money
 
         self.udi = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.subDetail = None
-        # type: array
+        # Type: array
         # reference to Claim_SubDetail
 
         self.object_id = None
@@ -1256,7 +1256,7 @@ class Claim_SubDetail(fhirbase):
 
     def __init__(self, dict_values=None):
         self.sequence = None
-        # type: int
+        # Type: int
 
         self.revenue = None
         # reference to CodeableConcept
@@ -1268,11 +1268,11 @@ class Claim_SubDetail(fhirbase):
         # reference to CodeableConcept
 
         self.modifier = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.programCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.quantity = None
@@ -1282,13 +1282,13 @@ class Claim_SubDetail(fhirbase):
         # reference to Money
 
         self.factor = None
-        # type: int
+        # Type: int
 
         self.net = None
         # reference to Money
 
         self.udi = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.object_id = None

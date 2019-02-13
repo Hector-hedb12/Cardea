@@ -119,85 +119,85 @@ class Measure(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'Measure'
-        # type: string
+        # Type: string
         # possible values: Measure
 
         self.url = None
-        # type: string
+        # Type: string
 
         self.version = None
-        # type: string
+        # Type: string
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.title = None
-        # type: string
+        # Type: string
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: draft, active, retired, unknown
 
         self.experimental = None
-        # type: boolean
+        # Type: boolean
 
         self.date = None
-        # type: string
+        # Type: string
 
         self.publisher = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.purpose = None
-        # type: string
+        # Type: string
 
         self.usage = None
-        # type: string
+        # Type: string
 
         self.approvalDate = None
-        # type: string
+        # Type: string
 
         self.lastReviewDate = None
-        # type: string
+        # Type: string
 
         self.effectivePeriod = None
         # reference to Period
 
         self.useContext = None
-        # type: array
+        # Type: array
         # reference to UsageContext
 
         self.jurisdiction = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.topic = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.contributor = None
-        # type: array
+        # Type: array
         # reference to Contributor
 
         self.contact = None
-        # type: array
+        # Type: array
         # reference to ContactDetail
 
         self.copyright = None
-        # type: string
+        # Type: string
 
         self.relatedArtifact = None
-        # type: array
+        # Type: array
         # reference to RelatedArtifact
 
         self.library = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.disclaimer = None
-        # type: string
+        # Type: string
 
         self.scoring = None
         # reference to CodeableConcept
@@ -206,43 +206,43 @@ class Measure(fhirbase):
         # reference to CodeableConcept
 
         self.type = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.riskAdjustment = None
-        # type: string
+        # Type: string
 
         self.rateAggregation = None
-        # type: string
+        # Type: string
 
         self.rationale = None
-        # type: string
+        # Type: string
 
         self.clinicalRecommendationStatement = None
-        # type: string
+        # Type: string
 
         self.improvementNotation = None
-        # type: string
+        # Type: string
 
         self.definition = None
-        # type: array
+        # Type: array
 
         self.guidance = None
-        # type: string
+        # Type: string
 
         self.set = None
-        # type: string
+        # Type: string
 
         self.group = None
-        # type: array
+        # Type: array
         # reference to Measure_Group: identifier
 
         self.supplementalData = None
-        # type: array
+        # Type: array
         # reference to Measure_SupplementalData: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -352,17 +352,17 @@ class Measure_Group(fhirbase):
 
     def __init__(self, dict_values=None):
         self.name = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.population = None
-        # type: array
+        # Type: array
         # reference to Measure_Population: identifier
 
         self.stratifier = None
-        # type: array
+        # Type: array
         # reference to Measure_Stratifier: identifier
 
         self.identifier = None
@@ -414,13 +414,13 @@ class Measure_Population(fhirbase):
         # reference to CodeableConcept
 
         self.name = None
-        # type: string
+        # Type: string
 
         self.description = None
-        # type: string
+        # Type: string
 
         self.criteria = None
-        # type: string
+        # Type: string
 
         self.identifier = None
         # reference to Identifier
@@ -460,10 +460,10 @@ class Measure_Stratifier(fhirbase):
 
     def __init__(self, dict_values=None):
         self.criteria = None
-        # type: string
+        # Type: string
 
         self.path = None
-        # type: string
+        # Type: string
 
         self.identifier = None
         # reference to Identifier
@@ -504,14 +504,14 @@ class Measure_SupplementalData(fhirbase):
 
     def __init__(self, dict_values=None):
         self.usage = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.criteria = None
-        # type: string
+        # Type: string
 
         self.path = None
-        # type: string
+        # Type: string
 
         self.identifier = None
         # reference to Identifier

@@ -33,14 +33,14 @@ class ProcessResponse(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ProcessResponse'
-        # type: string
+        # Type: string
         # possible values: ProcessResponse
 
         self.status = None
-        # type: string
+        # Type: string
 
         self.created = None
-        # type: string
+        # Type: string
 
         self.organization = None
         # reference to Reference: identifier
@@ -52,7 +52,7 @@ class ProcessResponse(fhirbase):
         # reference to CodeableConcept
 
         self.disposition = None
-        # type: string
+        # Type: string
 
         self.requestProvider = None
         # reference to Reference: identifier
@@ -64,19 +64,19 @@ class ProcessResponse(fhirbase):
         # reference to CodeableConcept
 
         self.processNote = None
-        # type: array
+        # Type: array
         # reference to ProcessResponse_ProcessNote
 
         self.error = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.communicationRequest = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:
@@ -155,7 +155,7 @@ class ProcessResponse_ProcessNote(fhirbase):
         # reference to CodeableConcept
 
         self.text = None
-        # type: string
+        # Type: string
 
         self.object_id = None
         # unique identifier for object class

@@ -58,19 +58,19 @@ class ChargeItem(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'ChargeItem'
-        # type: string
+        # Type: string
         # possible values: ChargeItem
 
         self.definition = None
-        # type: array
+        # Type: array
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: planned, billable, not-billable, aborted,
         # billed, entered-in-error, unknown
 
         self.partOf = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.code = None
@@ -83,7 +83,7 @@ class ChargeItem(fhirbase):
         # reference to Reference: identifier
 
         self.occurrenceDateTime = None
-        # type: string
+        # Type: string
 
         self.occurrencePeriod = None
         # reference to Period
@@ -92,7 +92,7 @@ class ChargeItem(fhirbase):
         # reference to Timing
 
         self.participant = None
-        # type: array
+        # Type: array
         # reference to ChargeItem_Participant
 
         self.performingOrganization = None
@@ -105,42 +105,42 @@ class ChargeItem(fhirbase):
         # reference to Quantity
 
         self.bodysite = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.factorOverride = None
-        # type: int
+        # Type: int
 
         self.priceOverride = None
         # reference to Money
 
         self.overrideReason = None
-        # type: string
+        # Type: string
 
         self.enterer = None
         # reference to Reference: identifier
 
         self.enteredDate = None
-        # type: string
+        # Type: string
 
         self.reason = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.service = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.account = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.supportingInformation = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.identifier = None

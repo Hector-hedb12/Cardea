@@ -89,22 +89,22 @@ class MedicationStatement(fhirbase):
 
     def __init__(self, dict_values=None):
         self.resourceType = 'MedicationStatement'
-        # type: string
+        # Type: string
         # possible values: MedicationStatement
 
         self.basedOn = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.partOf = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.context = None
         # reference to Reference: identifier
 
         self.status = None
-        # type: string
+        # Type: string
         # possible values: active, completed, entered-in-error,
         # intended, stopped, on-hold
 
@@ -118,13 +118,13 @@ class MedicationStatement(fhirbase):
         # reference to Reference: identifier
 
         self.effectiveDateTime = None
-        # type: string
+        # Type: string
 
         self.effectivePeriod = None
         # reference to Period
 
         self.dateAsserted = None
-        # type: string
+        # Type: string
 
         self.informationSource = None
         # reference to Reference: identifier
@@ -133,35 +133,35 @@ class MedicationStatement(fhirbase):
         # reference to Reference: identifier
 
         self.derivedFrom = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.taken = None
-        # type: string
+        # Type: string
         # possible values: y, n, unk, na
 
         self.reasonNotTaken = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonCode = None
-        # type: array
+        # Type: array
         # reference to CodeableConcept
 
         self.reasonReference = None
-        # type: array
+        # Type: array
         # reference to Reference: identifier
 
         self.note = None
-        # type: array
+        # Type: array
         # reference to Annotation
 
         self.dosage = None
-        # type: array
+        # Type: array
         # reference to Dosage
 
         self.identifier = None
-        # type: array
+        # Type: array
         # reference to Identifier
 
         if dict_values:

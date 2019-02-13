@@ -44,15 +44,15 @@ class DomainResource(fhirbase):
         # reference to Narrative
 
         self.contained = None
-        # type: array
+        # Type: array
         # reference to ResourceList
 
         self.extension = None
-        # type: array
+        # Type: array
         # reference to Extension
 
         self.modifierExtension = None
-        # type: array
+        # Type: array
         # reference to Extension
 
         self.object_id = None
